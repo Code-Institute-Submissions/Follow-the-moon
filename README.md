@@ -6,6 +6,11 @@ Follow the moon  (UNDER CONSTRUCTION)
 
 Follow the moon is a fictional site about living with the flow of the moon that I set up as my first milestone project. The focus with this site is to combine what I learned in a previous course about the moon with what I learned this far about HTML, CSS and Bootstrap. The site’s goal is to share information, tips and tricks about living with the flow of the moon.
 
+Demo
+======
+
+By clicking this [link](https://daph1986.github.io/Follow-the-moon/) a live demo version will be visible.
+
 UX
 ======
 It will be a B2C site which targets audience interested in moonology / yoga / spirituality.
