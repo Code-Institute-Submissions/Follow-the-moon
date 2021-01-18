@@ -49,7 +49,7 @@ The colors in the color pallet I got by using the homepage image and uploading i
 Additionally during making the wireframe I stumbled upon 2 colors which I used for the buttons and the text which are not in the color pallet. These are #FAF7F7 and the #4A3F46.
 
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/Color%20pallet.png" alt="Color pallet"/>
-<img src="/https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/Hex%20Color%20%234A3F46.png" alt="Hex Color #4A3F46"/>
+<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/Hex%20Color%20%234A3F46.png" alt="Hex Color #4A3F46"/>
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/Hex%20Color%20%23FAF7F7%20.png" alt="Hex Color #FAF7F7"/> 
 <br>
 
