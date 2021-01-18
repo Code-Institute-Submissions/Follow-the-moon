@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
+
 body {
     font-family: 'Nunito', sans-serif;
     color: #FAF7F7;
-    background: url("../images/Homepage.jpg") no-repeat fixed;
+    background: url("../images/Homepage_rezise.jpg") no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -74,6 +75,12 @@ a.nav-link .navbar-nav {
     border-color: #4A3F46;
 }
 
+.btn:hover {
+    color: #4A3F46;
+    background-color: #CDBCCC;
+    border-color: #CDBCCC;
+}
+
 /* ------------- Callout ------------- */
 
 .jumbotron {
@@ -88,11 +95,17 @@ a.nav-link .navbar-nav {
 }
 
 @media screen and (max-width: 600px) {
-    .hpage {
+    .hpage_responsive {
         width: 70%;
     }
     .jumbotron {
         margin-top: 225px;
+    }
+}
+
+@media screen and (min-width: 670px) {
+    p.hpage_responsive {
+        width: 40%;
     }
 }
 
