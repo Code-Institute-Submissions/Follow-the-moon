@@ -2,7 +2,7 @@ Follow the moon  (UNDER CONSTRUCTION)
 ======
 **Code Institute Milestone Project 1: User Centric Frontend Development**
 
-<img src="/images/Homepage_rezise.jpg" alt="Follow the moon"/>
+<img src="/images/README images/Homepage_rezise.jpg" alt="Follow the moon"/>
 
 Follow the moon is a fictional site about living with the flow of the moon that I set up as my first milestone project. The focus with this site is to combine what I learned in a previous course about the moon with what I learned this far about HTML, CSS and Bootstrap. The site’s goal is to share information, tips and tricks about living with the flow of the moon.
 
@@ -48,9 +48,9 @@ This site will be structured as clear as possible, to get the wanted information
 The colors in the color pallet I got by using the homepage image and uploading it to https://colordesigner.io/color-palette-from-image and then select to get 10 colors.
 Additionally during making the wireframe I stumbled upon 2 colors which I used for the buttons and the text which are not in the color pallet. These are #FAF7F7 and the #4A3F46.
 
-<img src="/images/Color pallet.png" alt="Color pallet"/>
-<img src="/images/Hex Color #4A3F46.png" alt="Hex Color #4A3F46"/>
-<img src="/images/Hex Color #FAF7F7.png" alt="Hex Color #FAF7F7"/> 
+<img src="/images/README images/Color pallet.png" alt="Color pallet"/>
+<img src="/images/README images/Hex Color #4A3F46.png" alt="Hex Color #4A3F46"/>
+<img src="/images/README images/Hex Color #FAF7F7.png" alt="Hex Color #FAF7F7"/> 
 <br>
 
 **Fonts & icons**
