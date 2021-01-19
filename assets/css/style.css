@@ -3,15 +3,20 @@
 body {
     font-family: 'Nunito', sans-serif;
     color: #FAF7F7;
+}
+
+#homepage {
     background: url("../images/Homepage_rezise.jpg") no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
-    scroll-behavior: smooth;
 }
 
+#mooncalendar {
+    background-color: #9E7B78;
+}
 /* ------------- Specials ------------- */
 
 .transparant-overlay {
@@ -19,7 +24,7 @@ body {
     background-color: rgb(255, 255, 255, 0.25);
 }
 
-/* ------------- Colours ------------- */
+/* ------------- Colors ------------- */
 
 .navbar-light .navbar-nav .nav-link {
     color: #FAF7F7;
@@ -39,6 +44,10 @@ body {
 .navbar {
     position: fixed;
     width: 100%;
+}
+
+#calendar-dropdown {
+    position: sticky;
 }
 
 .navbar-light .active {
@@ -81,6 +90,10 @@ a.nav-link .navbar-nav {
     border-color: #CDBCCC;
 }
 
+#btn_download { 
+    width: 150px;
+}
+
 /* ------------- Callout ------------- */
 
 .jumbotron {
@@ -106,6 +119,18 @@ a.nav-link .navbar-nav {
 @media screen and (min-width: 670px) {
     p.hpage_responsive {
         width: 40%;
+    }
+}
+
+/* ------------- Calendar content ------------- */
+
+.calendar-content {
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 600px) {
+    .calendar-content {
+        margin-top: 75px;
     }
 }
 
