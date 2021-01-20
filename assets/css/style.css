@@ -6,7 +6,7 @@ body {
 }
 
 #homepage {
-    background: url("../images/Homepage_rezise.jpg") no-repeat fixed;
+    background: url("../images/homepage.jpg") no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -17,6 +17,10 @@ body {
 #mooncalendar {
     background-color: #9E7B78;
 }
+
+#moonphases {
+    background-color: #7A6C7E;
+}
 /* ------------- Specials ------------- */
 
 .transparant-overlay {
@@ -24,7 +28,7 @@ body {
     background-color: rgb(255, 255, 255, 0.25);
 }
 
-/* ------------- Colors ------------- */
+/* ------------- Navbar ------------- */
 
 .navbar-light .navbar-nav .nav-link {
     color: #FAF7F7;
@@ -38,8 +42,6 @@ body {
     color: #faf7f703;
     border-color: #faf7f700;
 }
-
-/* ------------- Navbar ------------- */
 
 .navbar {
     position: fixed;
@@ -69,7 +71,7 @@ a.nav-link .navbar-nav {
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url("../images/Selfmade\ toggler-icon.png");
+    background-image: url("../images/selfmade_toggler_icon.png");
 }
 
 /* ------------- Buttons ------------- */
@@ -134,6 +136,16 @@ a.nav-link .navbar-nav {
     }
 }
 
+/* ------------- Phases content ------------- */
+
+.phasescard {
+    background-color: #7A6C7E;
+    border-color: #7A6C7E;
+}
+
+p.card-text {
+    font-size: 14px;
+}
 /* ------------- Footer ------------- */
 
 .fixed-bottom {
