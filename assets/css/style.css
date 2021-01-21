@@ -141,11 +141,18 @@ a.nav-link .navbar-nav {
 .phasescard {
     background-color: #7A6C7E;
     border-color: #7A6C7E;
+    max-width: 100%;
 }
 
 p.card-text {
     font-size: 14px;
 }
+
+img.card-img {
+    max-width: 300px;
+    height: 300px;
+}
+
 /* ------------- Footer ------------- */
 
 .fixed-bottom {
