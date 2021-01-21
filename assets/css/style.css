@@ -21,11 +21,22 @@ body {
 #moonphases {
     background-color: #7A6C7E;
 }
+
+#dailylife {
+    background-color: #E3A99D;
+    border-color: #E3A99D;
+}
 /* ------------- Specials ------------- */
 
 .transparant-overlay {
     position: relative;
     background-color: rgb(255, 255, 255, 0.25);
+}
+
+/* ------------- Images ------------- */
+
+.img-fluid {
+    width: 100%;
 }
 
 /* ------------- Navbar ------------- */
@@ -153,6 +164,51 @@ img.card-img {
     height: 300px;
 }
 
+/* ------------- Daily life content ------------- */
+
+.moon-header {
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#text_header {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.daily-content p {
+    margin-top: 32px;
+    margin-bottom: 64px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+p#inbetween-text {
+    margin-bottom: 32px;
+}
+
+.daily-content div.col-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .daily-content p {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .moon-header {
+        font-size: 22px;
+    }
+    #text_header {
+        top: 82%;
+    }
+}
+
 /* ------------- Footer ------------- */
 
 .fixed-bottom {
@@ -164,7 +220,6 @@ img.card-img {
 footer i {
     color: #FAF7F7;
 }
-
 footer .list-inline {
     padding-left: 32px;
     padding-right: 20px;
