@@ -79,7 +79,8 @@ Technologies
 **Other programs**
 + Adobe Photoshop: to resize images that were to large to use.
 + Adobe Illustrater: to create part of moon calender, homepage image and toggler icon.
-+ VScode
++ Adobe Premiere Pro: to make audio meditations
++ VScode: to write my code in
 
 Bugs
 ======
@@ -91,8 +92,63 @@ Testing
 
 Deployment
 ======
-!!!!Add content here!!!!!
+To view a live version of my site GitHub Pages was used.
+A new public repository on GitHub was created, which deploys from the master branch.
+Within VScode the "git push" command ensures the changes and new commits to the site are updated to the master branch.
+Make sure you make a index.html landing page in order for the site to deploy on GitHub Pages.
+
+By clicking this [link](https://daph1986.github.io/Follow-the-moon/) the live demo version will be visible.
+
+If you would like to run this site locally you can clone this repository in an editor such as Cloud9 or VScode.
+You can clone it by clicking the green "Code" button and copy the given link.
 
 Credits
 ======
-!!!!Add content here!!!!!
+### Content
+All content is writen by myself based on what I've learned during the [Happinez moon course](https://www.happinez.nl/online-training/leef-met-de-maan/gclid=Cj0KCQiAjKqABhDLARIsABbJrGn-HXSU0mLKkpQPPEL0OzM127X8UC9I-kOnFTyR1dxRFJIGYuCue88aAt-uEALw_wcB), during my enjoyed courses and lessons with [Yoga Maarssen](https://www.yogamaarssen.nl/) and the extra educational information about [gemstones](https://www.edelstenenenmineralen.nl/).
+
+### Media 
+#### Images:
+1. [Pexels](https://www.pexels.com/) 
+* homepage image is a combined image --> _pink-clouds-background by Jack Anstey_
+* moon_mirror image --> Boy of Water Under Blue and Red Sky by Trung Nguyen
+
+2. [Cleanpng](https://www.cleanpng.com/)
+* homepage image is a combined image --> _png-moon-png-54278 by Divasiri_
+
+3. These image were downloaded with a trial [Shutterstock](https://www.shutterstock.com/) account
+* moon_phases image --> ID: 1090336661 by Eisfrei
+* new_moon image --> ID: 509457424 by THANAKRIT SANTIKUNAPORN
+* waxing_gibbous_moon image --> ID: 100023281 by Mihai-Bogdan Lazar
+* third_quarter_moon image --> ID: 124266622 by Procy
+* full_moon image --> ID: 350316134 by TuiPhotoEngineer
+* waning_gibbous_moon image --> ID: 643273564 by Cristian Cestaro
+* waning_crescent_moon image --> ID: 742746820 by Lukasz Pawel Szczepanski
+* full_moon_pink image --> ID: 1611988528 by nednapa
+* forest_moon image --> ID: 511867600 by Triff
+
+
+4. [Rawpixel](https://www.rawpixel.com/)
+* waxing_crescent_moon image --> id-440089 Original from NASA. Digitally enhanced by rawpixel
+* first_quarter_moon image --> id-440197 Original from NASA. 
+Digitally enhanced by rawpixel
+
+5. [Pikwizard](https://pikwizard.com/)
+* full_moon_sky image --> Sky Atmosphere Sun
+
+6. [Unsplash](https://unsplash.com/)
+* moon_mountains image --> U-Kty6HxcQc by Benjamin Voros 
+* meditate image --> oMpAz-DN-9I by Greg Rakozy 
+* pink_clouds image --> FnKEsLuPQvI by Ingmar
+
+#### Music:
+1. [YouTube Studio](https://studio.youtube.com/channel/UC991useTgs7W2PofwhpouBw/music)
+* Satya Yuga by Jesse Gallagher
+
+2. [BigSoundBank](https://bigsoundbank.com/detail-1110-tibetan-bowl-struck.html)
+* Tibetan bowl struck by Joseph SARDIN
+
+3. Meditation storyteller
+* Self (Daphne Heimgartner-Frankhuisen)
+
+### Acknowledgements
