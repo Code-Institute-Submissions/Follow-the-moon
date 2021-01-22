@@ -105,7 +105,7 @@ You can clone it by clicking the green "Code" button and copy the given link.
 Credits
 ======
 ### Content
-All content is writen by myself based on what I've learned during the [Happinez moon course](https://www.happinez.nl/online-training/leef-met-de-maan/gclid=Cj0KCQiAjKqABhDLARIsABbJrGn-HXSU0mLKkpQPPEL0OzM127X8UC9I-kOnFTyR1dxRFJIGYuCue88aAt-uEALw_wcB), during my enjoyed courses and lessons with [Yoga Maarssen](https://www.yogamaarssen.nl/) and the extra educational information about [gemstones](https://www.edelstenenenmineralen.nl/).
+All content is writen by myself based on what I've learned during the [Happinez moon course](https://www.happinez.nl/online-training/leef-met-de-maan/), during my enjoyed courses and lessons with [Yoga Maarssen](https://www.yogamaarssen.nl/) and the extra educational information about [gemstones](https://www.edelstenenenmineralen.nl/).
 
 ### Media 
 #### Images:
