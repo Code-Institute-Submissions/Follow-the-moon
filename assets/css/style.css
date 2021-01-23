@@ -11,7 +11,7 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    position: relative;
+    position: fixed;
 }
 
 #mooncalendar {
@@ -79,9 +79,11 @@ body {
     width: 100%;
 }
 
+/* 
+id="calendar-dropdown"  seems to have no functionality
 #calendar-dropdown {
     position: sticky;
-}
+} */
 
 .navbar-light .active {
     padding-left: 16px;
@@ -127,31 +129,53 @@ a.nav-link .navbar-nav {
     width: 150px;
 }
 
+#btn_more-info {
+    width: 200px;
+}
+#btn_more-info a {
+    color: #FAF7F7;
+    text-decoration: none;
+}
+
 /* ------------- Callout ------------- */
 
-.jumbotron {
-    background-color: transparent;
-    margin-top: 275px;
+.callout-container {
+margin-top: 350px;
+margin-left: 32px;
 }
 
 .callout-container p {
-    font-size: 75%;
-    font-weight: 200;
-    width: 60%;
+    font-size: large;
+    font-weight: 100;
 }
 
-@media screen and (max-width: 600px) {
-    .hpage_responsive {
-        width: 70%;
+@media screen and (max-width: 670px) {
+    .callout-container {
+        margin-top: 275px;
+        margin-left: 16px;
     }
-    .jumbotron {
-        margin-top: 225px;
-    }
-}
 
-@media screen and (min-width: 670px) {
+    h1.hpage_responsive {
+        width: 60%;
+    }
+
+    h3.hpage_responsive {
+        width: 65%;
+    }
+
     p.hpage_responsive {
-        width: 40%;
+        margin-top: 15px;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .hpage_responsive {
+        width: 100%;
+        font-size: xx-large;
+    }
+    .callout-container {
+        margin-top: 575px;
     }
 }
 
