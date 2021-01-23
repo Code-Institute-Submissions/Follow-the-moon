@@ -84,6 +84,10 @@ body {
     width: 100%;
 }
 
+#navbar-calendar{
+    position: sticky;
+}
+
 .navbar-light .active {
     padding-left: 16px;
     text-decoration: underline 1px solid #FAF7F7;
@@ -133,7 +137,8 @@ a.nav-link .navbar-nav {
 }
 
 #btn_download { 
-    width: 150px;
+    width: 175px;
+    font-size: 20px;
 }
 
 #btn_more-info {
@@ -239,9 +244,25 @@ p#inbetween-text {
     margin-top: 150px;
 }
 
+h1 {
+    margin-top: 25px;
+}
+
+p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 600px) {
     .calendar-content {
-        margin-top: 75px;
+        margin-top: 50px;
+    }
+    h1 {
+        margin-top: 0px;
+    }
+    p {
+        margin-top: 10px;
     }
 }
 
