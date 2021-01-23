@@ -31,11 +31,16 @@ body {
     background-color: #52547A;
 }
 
-/* ------------- Specials ------------- */
+/* ------------- Overlays ------------- */
 
 .transparant-overlay {
     position: relative;
     background-color: rgb(255, 255, 255, 0.25);
+}
+
+#daily-overlay {
+    position: sticky;
+    background-color: #E3A99D;
 }
 
 /* ------------- Images ------------- */
@@ -79,12 +84,6 @@ body {
     width: 100%;
 }
 
-/* 
-id="calendar-dropdown"  seems to have no functionality
-#calendar-dropdown {
-    position: sticky;
-} */
-
 .navbar-light .active {
     padding-left: 16px;
     text-decoration: underline 1px solid #FAF7F7;
@@ -123,6 +122,14 @@ a.nav-link .navbar-nav {
     color: #4A3F46;
     background-color: #CDBCCC;
     border-color: #CDBCCC;
+}
+
+#btn_follow {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    width: 150px;
 }
 
 #btn_download { 
@@ -179,6 +186,53 @@ margin-left: 32px;
     }
 }
 
+/* ------------- Daily life content ------------- */
+
+.moon-header {
+    position: relative;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#text_header {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.daily-content p {
+    margin-top: 32px;
+    margin-bottom: 64px;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-size: 20px;
+}
+
+p#inbetween-text {
+    margin-bottom: 32px;
+}
+
+.daily-content div.col-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .daily-content p {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .moon-header {
+        font-size: 22px;
+    }
+    #text_header {
+        top: 82%;
+    }
+}
+
+
 /* ------------- Calendar content ------------- */
 
 .calendar-content {
@@ -207,51 +261,6 @@ img.card-img {
     max-width: 300px;
     height: 300px;
     margin-bottom: 32px;
-}
-
-/* ------------- Daily life content ------------- */
-
-.moon-header {
-    position: relative;
-    text-align: center;
-    font-size: xx-large;
-}
-
-#text_header {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.daily-content p {
-    margin-top: 32px;
-    margin-bottom: 64px;
-    margin-left: 32px;
-    margin-right: 32px;
-}
-
-p#inbetween-text {
-    margin-bottom: 32px;
-}
-
-.daily-content div.col-12 {
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-@media screen and (max-width: 768px) {
-    .daily-content p {
-        margin-left: 8px;
-        margin-right: 8px;
-    }
-
-    .moon-header {
-        font-size: 22px;
-    }
-    #text_header {
-        top: 82%;
-    }
 }
 
 /* ------------- Meditations content ------------- */
@@ -288,6 +297,10 @@ p#inbetween-text {
     background-color: rgb(255, 255, 255, 0.25);
     padding: 8px, 0px;
     margin: 0;
+}
+
+#footer-daily {
+    background-color: #E3A99D;
 }
 
 footer i {
