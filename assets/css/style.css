@@ -43,6 +43,11 @@ body {
     background-color: #E3A99D;
 }
 
+#phases-overlay {
+    position: sticky;
+    background-color: #7A6C7E;
+}
+
 /* ------------- Images ------------- */
 
 .img-fluid {
@@ -268,6 +273,12 @@ p {
 
 /* ------------- Phases content ------------- */
 
+div.card-body {
+    padding-top: 0;
+    padding-bottom: 75px; 
+    margin-left: 80px;
+}
+
 .phasescard {
     background-color: #7A6C7E;
     border-color: #7A6C7E;
@@ -275,14 +286,53 @@ p {
 }
 
 p.card-text {
-    font-size: 14px;
+    font-size: 18px;
 }
 
 img.card-img {
     max-width: 300px;
     height: 300px;
-    margin-bottom: 32px;
+    margin-left: 80px;
+    padding-bottom: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    div.card-body {
+        padding-bottom: 50px; 
+    }
+    
+    h3.card-title {
+        text-align: center;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 768px) {
+    img.card-img {
+        max-width: 200px;
+        height: 200px;
+    }
+    
+    h3.card-title {
+        text-align: center;
+    }
+    
+}  
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    img.card-img {
+        max-width: 250px;
+        height: 250px;
+    }
+    
+} 
+    
+@media screen and (min-width: 1200px) {
+   div.card-body {
+       padding-left: 0;
+   }
+    
+}  
 
 /* ------------- Meditations content ------------- */
 
@@ -322,6 +372,10 @@ img.card-img {
 
 #footer-daily {
     background-color: #E3A99D;
+}
+
+#footer-phases {
+    background-color: #7A6C7E;
 }
 
 footer i {
