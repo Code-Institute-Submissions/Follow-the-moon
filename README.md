@@ -111,7 +111,7 @@ All content is writen by myself based on what I've learned during the [Happinez 
 #### Images:
 1. [Pexels](https://www.pexels.com/) 
 * homepage image is a combined image --> _pink-clouds-background by Jack Anstey_
-* moon_mirror image --> Boy of Water Under Blue and Red Sky by Trung Nguyen
+* Gratitude meditation image --> Boy of Water Under Blue and Red Sky by Trung Nguyen
 
 2. [Cleanpng](https://www.cleanpng.com/)
 * homepage image is a combined image --> _png-moon-png-54278 by Divasiri_
@@ -125,7 +125,7 @@ All content is writen by myself based on what I've learned during the [Happinez 
 * waning_gibbous_moon image --> ID: 643273564 by Cristian Cestaro
 * waning_crescent_moon image --> ID: 742746820 by Lukasz Pawel Szczepanski
 * full_moon_pink image --> ID: 1611988528 by nednapa
-* forest_moon image --> ID: 511867600 by Triff
+* Intuition meditation image --> ID: 511867600 by Triff
 
 
 4. [Rawpixel](https://www.rawpixel.com/)
@@ -134,12 +134,12 @@ All content is writen by myself based on what I've learned during the [Happinez 
 Digitally enhanced by rawpixel
 
 5. [Pikwizard](https://pikwizard.com/)
-* full_moon_sky image --> Sky Atmosphere Sun
+* Sleep meditation image --> Sky Atmosphere Sun
 
 6. [Unsplash](https://unsplash.com/)
-* moon_mountains image --> U-Kty6HxcQc by Benjamin Voros 
-* meditate image --> oMpAz-DN-9I by Greg Rakozy 
-* pink_clouds image --> FnKEsLuPQvI by Ingmar
+* Confidence meditation image --> U-Kty6HxcQc by Benjamin Voros 
+* Positivity meditation image --> oMpAz-DN-9I by Greg Rakozy 
+* Body scan meditation image --> FnKEsLuPQvI by Ingmar
 
 #### Music:
 1. [YouTube Studio](https://studio.youtube.com/channel/UC991useTgs7W2PofwhpouBw/music)
@@ -152,3 +152,4 @@ Digitally enhanced by rawpixel
 * Self (Daphne Heimgartner-Frankhuisen)
 
 ### Acknowledgements
+!!!!Add content here!!!!!
