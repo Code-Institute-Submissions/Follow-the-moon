@@ -26,6 +26,11 @@ body {
     background-color: #E3A99D;
     border-color: #E3A99D;
 }
+
+#meditations {
+    background-color: #52547A;
+}
+
 /* ------------- Specials ------------- */
 
 .transparant-overlay {
@@ -37,6 +42,21 @@ body {
 
 .img-fluid {
     width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    p.card-text {
+        text-align: center;
+    }
+    h5.card-title {
+        text-align: center;
+    }
+
+    img.card-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* ------------- Navbar ------------- */
@@ -162,6 +182,7 @@ p.card-text {
 img.card-img {
     max-width: 300px;
     height: 300px;
+    margin-bottom: 32px;
 }
 
 /* ------------- Daily life content ------------- */
@@ -209,6 +230,34 @@ p#inbetween-text {
     }
 }
 
+/* ------------- Meditations content ------------- */
+
+.meditationcard {
+    background-color: #52547A;
+    border-color: #52547A;
+    max-width: 100%;
+}
+
+.meditationcard img.card-img {
+    margin-bottom: 64px;
+}
+
+.meditationcard p.card-text {
+    margin-bottom: 64px;
+}
+
+.meditationcard iframe {
+    width: auto;
+    height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    iframe {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 /* ------------- Footer ------------- */
 
 .fixed-bottom {
