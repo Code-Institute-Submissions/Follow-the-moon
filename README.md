@@ -40,6 +40,7 @@ The site will contain a printable moon cycle calendar and information about doâ€
 This site will be structured as clear as possible, to get the wanted information as quickly as possible. The navigation bar will be visible at the left top side to easily navigate to other subjects. It ensures that the user knows what to do and what to expect.
 
 **Skeleton**
+
 [Desktop Wireframe](https://github.com/Daph1986/Follow-the-moon/blob/master/desktop_wireframe.pdf)
 [Mobile Wireframe](https://github.com/Daph1986/Follow-the-moon/blob/master/mobile_wireframe.pdf)
 
@@ -48,9 +49,9 @@ This site will be structured as clear as possible, to get the wanted information
 The colors in the color pallet I got by using the homepage image and uploading it to https://colordesigner.io/color-palette-from-image and then select to get 10 colors.
 Additionally during making the wireframe I stumbled upon 2 colors which I used for the buttons and the text which are not in the color pallet. These are #FAF7F7 and the #4A3F46.
 
-<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/color_pallet" alt="Color pallet"/>
-<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_#4A3F46" alt="Hex Color #4A3F46"/>
-<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_#FAF7F7" alt="Hex Color #FAF7F7"/> 
+<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/color_pallet.png" alt="Color pallet"/>
+<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_%234A3F46.png" alt="Hex Color #4A3F46"/>
+<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_%23FAF7F7.png" alt="Hex Color #FAF7F7"/> 
 <br>
 
 **Fonts & icons**
