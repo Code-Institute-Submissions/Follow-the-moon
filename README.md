@@ -9,7 +9,7 @@ Follow the moon is a fictional site about living with the flow of the moon that 
 Demo
 ======
 
-By clicking this [link](https://daph1986.github.io/Follow-the-moon/){:target="_blank"} a live demo version will be visible.
+By clicking this [link](https://daph1986.github.io/Follow-the-moon/){:target="_blank" rel="noopener"} a live demo version will be visible.
 
 UX
 ======
