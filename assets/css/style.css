@@ -31,7 +31,13 @@ body {
     background-color: #52547A;
 }
 
-/* ------------- Overlays ------------- */
+/* ------------- Images ------------- */
+
+.img-fluid {
+    width: 100%;
+}
+
+/* ------------- Navbar Overlays ------------- */
 
 .transparant-overlay {
     position: relative;
@@ -51,28 +57,6 @@ body {
 #meditations-overlay {
     position: sticky;
     background-color: #52547A;
-}
-
-
-/* ------------- Images ------------- */
-
-.img-fluid {
-    width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-    p.card-text {
-        text-align: center;
-    }
-    h5.card-title {
-        text-align: center;
-    }
-
-    img.card-img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
 }
 
 /* ------------- Navbar ------------- */
@@ -120,7 +104,6 @@ a.nav-link .navbar-nav {
 .navbar-light .navbar-toggler-icon {
     background-image: url("../images/selfmade_toggler_icon.png");
 }
-
 /* ------------- Buttons ------------- */
 
 .btn_purple {
@@ -242,6 +225,7 @@ p#inbetween-text {
 .daily-content div.col-12 {
     padding-left: 0px;
     padding-right: 0px;
+    padding-bottom: 140px;
 }
 
 @media screen and (max-width: 768px) {
@@ -258,6 +242,19 @@ p#inbetween-text {
     }
 }
 
+/* ------------- Daily life modal ------------- */
+
+#dailymodal {
+    background-color: #FAF7F7;
+    border-color: #FAF7F7;
+    color: #4A3F46;
+    font-size: 16px;
+}
+
+#blue_moon {
+    width: 200px;
+    height: 200px;
+}
 
 /* ------------- Calendar content ------------- */
 
@@ -331,7 +328,7 @@ img.phase-img {
 
 @media screen and (min-width: 768px) and (max-width: 768px) {
      div.phase-body {
-        padding-lef: 0px; 
+        padding-left: 0px; 
         margin-left: 0px;
     }
     
