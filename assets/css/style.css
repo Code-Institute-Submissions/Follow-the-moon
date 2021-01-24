@@ -279,7 +279,7 @@ p {
 
 /* ------------- Phases content ------------- */
 
-div.card-body {
+div.phase-body {
     padding-top: 0;
     padding-bottom: 75px; 
     margin-left: 80px;
@@ -291,11 +291,11 @@ div.card-body {
     max-width: 100%;
 }
 
-p.card-text {
+p.phase-text {
     font-size: 18px;
 }
 
-img.card-img {
+img.phase-img {
     max-width: 300px;
     height: 300px;
     margin-left: 80px;
@@ -303,12 +303,12 @@ img.card-img {
 }
 
 @media screen and (max-width: 600px) {
-    div.card-body {
+    div.phase-body {
         padding-bottom: 50px; 
         margin-left: 16px;
     }
 
-    img.card-img {
+    img.phase-img {
         margin-right: 41px;
         margin-left: 41px;
     }
@@ -320,12 +320,12 @@ img.card-img {
 }
 
 @media screen and (min-width: 768px) and (max-width: 768px) {
-     div.card-body {
+     div.phase-body {
         padding-lef: 0px; 
         margin-left: 0px;
     }
     
-    img.card-img {
+    img.phase-img {
         max-width: 200px;
         height: 200px;
         margin-left: 0px;
@@ -339,7 +339,7 @@ img.card-img {
 }  
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
-    img.card-img {
+    img.phase-img {
         max-width: 250px;
         height: 250px;
         padding-left: 26px;
@@ -350,7 +350,7 @@ img.card-img {
 } 
     
 @media screen and (min-width: 1200px) {
-   div.card-body {
+   div.phase-body {
        padding-left: 0;
    }
     
@@ -363,53 +363,23 @@ img.card-img {
     border-color: #52547A;
     max-width: 100%;
     overflow-x: hidden;
+    margin-top: 30px;
+    border-bottom-width: 30px;
+    margin-bottom: 45px;
 }
 
-.meditationcard div.row div.col-md-4 {
-    margin-bottom: 50px;
+.meditation-body {
+    text-align: center;
 }
 
-.meditationcard div.col-md-4 {
-    margin-left: 80px;
-}
-
-.meditationcard img.card-img {
-    margin-bottom: 64px;
-}
-
-.meditationcard p.card-text {
-    margin-bottom: 64px;
+p.meditation-text {
+    font-size: 16px;
 }
 
 .meditationcard iframe {
-    width: 375px;
-    height: 275px;
-    border: #52547A;
+    border: none;
 }
 
-@media screen and (max-width: 768px) {
-    iframe {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .meditationcard div.col-md-4 {
-        margin-left: 0px;
-    }
-
-    .meditationcard div.card-body {
-        width: 100%;
-    }
-
-}
-
-@media screen and (min-width: 768px) and (max-width: 768px) {
-    .meditationcard iframe {
-        width: 315px;
-        height: 175px;
-    }
-} 
 /* ------------- Footer ------------- */
 
 .fixed-bottom {
