@@ -42,17 +42,14 @@
         </div>
         <div class="row">
             <div class="col-12 text-center">
-                <p>
+                <p id="mobile-hide">
                     Download a printable moon calendar for 2021 to see which day of the moon cycle where on today!
                 </p>
+                <button type="button" class="btn btn-lg btn-cta btn_purple" id="btn_view" data-toggle="modal"
+                    data-target=".bd-example-modal-lg">View me!</button>
             </div>
         </div>
-        <div class="col-12 text-center">
-             <div class="button">
-                <button class="btn btn-lg btn-cta btn_purple" id="btn_download" data-toggle="modal" data-target="#signUpModal">Download
-                me!</button>
-            </div>
-        </div>    
+
     </section>
     <!-- Calendar content end -->
 
@@ -84,6 +81,17 @@
                         <span class="sr-only">YouTube</span>
                     </a>
                 </li>
+                <li class="list-inline-item" id="download">
+                    <span id="mobile-hide">If you want to download or print me, click here!<a target="_blank"
+                            href="assets/images/printable_mooncalendar.pdf"><i class="fas fa-download"
+                                aria-hidden="true"></i></a></span></i>
+                    <span class="sr-only">Download link</span>
+                </li>
+                <li class="list-inline-item" id="download">
+                    <span id="non-mobile-hide"><a target="_blank" href="assets/images/printable_mooncalendar.pdf">
+                        <i class="fas fa-download" aria-hidden="true"></i></a></span></i>
+                    <span class="sr-only">Download link</span>
+                </li>
                 <li class="list-inline-item contact">
                     <i class="fas fa-address-book" aria-hidden="true"><span>13 Moonlane, Utrecht, NL</span></i>
                     <span class="sr-only">Address</span>
@@ -101,6 +109,20 @@
 
     </footer>
     <!-- Footer end -->
+
+    <!-- Download modal -->
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <img src="assets/images/printable_mooncalendar.png" alt="Printable A4 Moon Calendar">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn_close" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+    <!-- Download modal end -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
