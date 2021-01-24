@@ -272,6 +272,15 @@ p {
     font-size: 20px;
 }
 
+#download  {
+    margin-top: 32px;
+}
+
+#download_icon {
+    padding-left: 2px;
+    color: #FAF7F7;
+}
+
 @media screen and (max-width: 600px) {
     .calendar-content {
         margin-top: 50px;
@@ -407,7 +416,6 @@ p.meditation-text {
     background-color: #52547A;
 }
 
-
 footer i {
     color: #FAF7F7;
 }
@@ -416,18 +424,6 @@ footer .list-inline {
     padding-right: 20px;
     list-style: none;
     margin-top: 16px;
-}
-
-#download {
-    font-family: 'Nunito', sans-serif;
-    font-size: 12px;
-    font-weight: 300;
-    margin-left: 5%;
-}
-
-#download i {
-    padding-right: 2px;
-
 }
 
 .contact {
