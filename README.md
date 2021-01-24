@@ -41,8 +41,10 @@ This site will be structured as clear as possible, to get the wanted information
 
 **Skeleton**
 
-[Desktop Wireframe](https://github.com/Daph1986/Follow-the-moon/blob/master/desktop_wireframe.pdf)
-[Mobile Wireframe](https://github.com/Daph1986/Follow-the-moon/blob/master/mobile_wireframe.pdf)
+Links to my wireframes can be found here:
+
+* [Desktop version](https://github.com/Daph1986/Follow-the-moon/blob/master/desktop_wireframe.pdf)
+* [Mobile version](https://github.com/Daph1986/Follow-the-moon/blob/master/mobile_wireframe.pdf)
 
 **Surface**
 
