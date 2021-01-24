@@ -40,8 +40,8 @@ The site will contain a printable moon cycle calendar and information about doâ€
 This site will be structured as clear as possible, to get the wanted information as quickly as possible. The navigation bar will be visible at the left top side to easily navigate to other subjects. It ensures that the user knows what to do and what to expect.
 
 **Skeleton**
-
-!!!!Place wireframe or wireframe links here!!!!!
+[Desktop Wireframe](https://github.com/Daph1986/Follow-the-moon/blob/master/desktop_wireframe.pdf)
+[Mobile Wireframe](https://github.com/Daph1986/Follow-the-moon/blob/master/mobile_wireframe.pdf)
 
 **Surface**
 
