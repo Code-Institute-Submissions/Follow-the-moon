@@ -2,14 +2,14 @@ Follow the moon  (UNDER CONSTRUCTION)
 ======
 **Code Institute Milestone Project 1: User Centric Frontend Development**
 
-<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/Homepage_rezise.jpg" alt="Follow the moon"/>
+<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/homepage.jpg" alt="Follow the moon"/>
 
 Follow the moon is a fictional site about living with the flow of the moon that I set up as my first milestone project. The focus with this site is to combine what I learned in a previous course about the moon with what I learned this far about HTML, CSS and Bootstrap. The site’s goal is to share information, tips and tricks about living with the flow of the moon.
 
 Demo
 ======
 
-By clicking this [link](https://daph1986.github.io/Follow-the-moon/) a live demo version will be visible.
+By clicking this [link](https://daph1986.github.io/Follow-the-moon/){:target="_blank"} a live demo version will be visible.
 
 UX
 ======
@@ -48,9 +48,9 @@ This site will be structured as clear as possible, to get the wanted information
 The colors in the color pallet I got by using the homepage image and uploading it to https://colordesigner.io/color-palette-from-image and then select to get 10 colors.
 Additionally during making the wireframe I stumbled upon 2 colors which I used for the buttons and the text which are not in the color pallet. These are #FAF7F7 and the #4A3F46.
 
-<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/Color%20pallet.png" alt="Color pallet"/>
-<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/Hex%20Color%20%234A3F46.png" alt="Hex Color #4A3F46"/>
-<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/Hex%20Color%20%23FAF7F7%20.png" alt="Hex Color #FAF7F7"/> 
+<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/color_pallet" alt="Color pallet"/>
+<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_#4A3F46" alt="Hex Color #4A3F46"/>
+<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_#FAF7F7" alt="Hex Color #FAF7F7"/> 
 <br>
 
 **Fonts & icons**
