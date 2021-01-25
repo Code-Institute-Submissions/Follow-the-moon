@@ -54,7 +54,16 @@ Additionally during making the wireframe I stumbled upon 2 colors which I used f
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/color_pallet.png" alt="Color pallet"/>
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_%234A3F46.png" alt="Hex Color #4A3F46"/>
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_%23FAF7F7.png" alt="Hex Color #FAF7F7"/> 
-<br>
+
+During development I restructured my website layout a little bit, because I saw that this was visually better.
+What I changed was:
+1. The homepage I changed my button to from "Follow me!" to "Curious to know more?" this seemed to make more sense. I also made it link to the Daily life page. 
+2. The daily life page, I changed the navbar position from fourth page to
+second page. This was more logical because the button on the homepage was changed and linked to this page. I then added the "Follow me!" button to this page, where you can sign up to the newsletter. 
+3. The moon calendar page I changed the "Download me!" button into "View me!" so that the calendar appeard in a pop-up which was an advise given by my mentor. But because then it would not be responsive to get it into the original A4 size I decided to add a download link for if you would like to save it and print it.
+4. The moon calendar, I decided to change the background color from hex color #52547A to hex color #9E7B78. This was to create more unity with the moon calendar page.
+5. The meditations page, the page has a lot less text then the moon phases page, that is why I decided to change the layout into card decks. This resulted in a visually better oriented page.
+6. I removed the transparant navbar and footer layer for the daily life, moon phases and meditations page, because otherwise when scrolling you would get difficulties reading the text and the toggler menu on the mobile version would not be readable.
 
 **Fonts & icons**
 
@@ -66,7 +75,9 @@ For the icons I used [Font Awesome]( https://fontawesome.com/)
 
 Features
 ======
-!!!!Add content here!!!!!
+I made the navbar change into a mobile navigation menu to ensure it would function well on mobile devices.
+The call to action buttons work on mobile and desktop devices.
+The meditions I made can be played on the site or on youtube.
 
 Technologies
 ======
