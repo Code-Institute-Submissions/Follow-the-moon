@@ -49,7 +49,7 @@ Links to my wireframes can be found here:
 **Surface**
 
 The colors in the color pallet I got by using the homepage image and uploading it to https://colordesigner.io/color-palette-from-image and then select to get 10 colors.
-Additionally during making the wireframe I stumbled upon 2 colors which I used for the buttons and the text which are not in the color pallet. These are #FAF7F7 and the #4A3F46.
+Additionally during making the wireframe I stumbled upon 2 colors which I used for the buttons and the text which are not in the color pallet. These are #FAF7F7 and #4A3F46.
 
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/color_pallet.png" alt="Color pallet"/>
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_%234A3F46.png" alt="Hex Color #4A3F46"/>
@@ -58,8 +58,7 @@ Additionally during making the wireframe I stumbled upon 2 colors which I used f
 During development I restructured my website layout a little bit, because I saw that this was visually better.
 What I changed was:
 1. The homepage I changed my button to from "Follow me!" to "Curious to know more?" this seemed to make more sense. I also made it link to the Daily life page. 
-2. The daily life page, I changed the navbar position from fourth page to
-second page. This was more logical because the button on the homepage was changed and linked to this page. I then added the "Follow me!" button to this page, where you can sign up to the newsletter. 
+2. The daily life page, I changed the page position in the navbar from fourth page to second page. This was more logical because the button on the homepage was changed and linked to this page. I then added the "Follow me!" button to this page, where you can sign up for the newsletter. 
 3. The moon calendar page I changed the "Download me!" button into "View me!" so that the calendar appeard in a pop-up which was an advise given by my mentor. But because then it would not be responsive to get it into the original A4 size I decided to add a download link for if you would like to save it and print it.
 4. The moon calendar, I decided to change the background color from hex color #52547A to hex color #9E7B78. This was to create more unity with the moon calendar page.
 5. The meditations page, the page has a lot less text then the moon phases page, that is why I decided to change the layout into card decks. This resulted in a visually better oriented page.
@@ -67,20 +66,19 @@ second page. This was more logical because the button on the homepage was change
 
 **Fonts & icons**
 
-I used [Google Fonts]( https://fonts.google.com/)
+I used [Google Fonts](https://fonts.google.com/) <br>
 The font I found in Adobe XD was Avenir, unfortunately this wasn’t a Google font, so I picked a similar one, Nunito.
 
 
-For the icons I used [Font Awesome]( https://fontawesome.com/)
+For the icons I used [Font Awesome](https://fontawesome.com/)
 
 Features
 ======
-I made the navbar change into a mobile navigation menu to ensure it would function well on mobile devices.
-The call to action buttons works on mobile and desktop devices.
-The meditions I made can be played on the site itself  or on youtube.
+I made the navbar change into a mobile navigation menu which collapse to ensure it would function well on mobile devices. <br>
+The call to action buttons works on mobile and desktop devices and the meditions I made can be played on the site itself or on youtube.
 
 **Features for the future** <br>
-The following items can be add: <br>
+The following items can be add: 
 + A custom made login
 + Moon cycle period tracker
 + Personal journal for setting goals 
@@ -102,27 +100,35 @@ Technologies
 
 **Others**
 + Adobe Photoshop: to resize images that were to large to use.
-+ Adobe Illustrater: to create part of moon calender, homepage image and toggler icon.
-+ Adobe Indesign to make wireframes A3 pdf's.
++ Adobe Illustrater: to create part of moon calender, the combined homepage image and toggler icon.
++ Adobe Indesign to make wireframes A3 pdf's and the menu bug image.
 + Adobe Premiere Pro: to make audio meditations.
 + VScode: to write my code.
 
 Bugs
 ======
+#### Navigation menu
 I had a problem with my navigation menu on the homepage, it  was pushing the content down:
-<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/menu_bug.png" alt="Menu bug"/>
-that was not supposed to happen. I fixed it by changing my ccs from  ''' .navbar {
-	position: sticky;
-}''' 
-to 
-'''.navbar {
-	position: fixed;
-	width: 100%
-}''' 
+<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/menu_bug.png" alt="Menu bug"/> <br>
+that was not supposed to happen. I fixed it by changing my ccs from <br>  
+.navbar { <br>
+	position: sticky; <br>
+} <br>
+<br>
+to <br>
+<br>
+.navbar { <br>
+	position: fixed; <br>
+	width: 100% <br>
+} <br>
+
+#### YouTube videos
+After adding my meditations that I put on youtube in my code with an iframe they wouldn't play. By searching on [Google](https://www.google.com/) I found this [site](https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262) where was explained how to fix it.
 
 Testing
 ======
-!!!!Add content here!!!!!
+1. [Color blindness](https://www.toptal.com/designers/colorfilter/)
+was tested on this site to ensure you would still be able to read the site when you have different types of color blindness.
 
 Deployment
 ======
@@ -144,11 +150,11 @@ All content is writen by myself based on what I've learned during the [Happinez 
 ### Media 
 #### Images:
 1. [Pexels](https://www.pexels.com/) 
-* homepage image is a combined image --> _pink-clouds-background by Jack Anstey_
+* homepage image is a _combined image_ --> _pink-clouds-background by Jack Anstey_
 * Gratitude meditation image --> Boy of Water Under Blue and Red Sky by Trung Nguyen
 
 2. [Cleanpng](https://www.cleanpng.com/)
-* homepage image is a combined image --> _png-moon-png-54278 by Divasiri_
+* homepage image is a _combined image_ --> _png-moon-png-54278 by Divasiri_
 
 3. These image were downloaded with a trial [Shutterstock](https://www.shutterstock.com/) account
 * moon_phases image --> ID: 1090336661 by Eisfrei
@@ -185,5 +191,11 @@ Digitally enhanced by rawpixel
 3. Meditation storyteller
 * Self (Daphne Heimgartner-Frankhuisen)
 
+#### Code:
+1. [W3schools](https://www.w3schools.com/html/html_youtube.asp)
+To help me embed the YouTube videos in my code.
+2. [Stackoverflow](https://stackoverflow.com/questions/37814508/order-columns-through-bootstrap4) to help me reverse the order of my moon phase cards on the mobile layout. 
+
 ### Acknowledgements
-!!!!Add content here!!!!!
++ My mentor, thank you Narender for your time and guidence.
++ My husband, thank you Django for taking care of our son more so I can work on my education and thank you for your patience!
