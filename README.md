@@ -76,13 +76,23 @@ For the icons I used [Font Awesome]( https://fontawesome.com/)
 Features
 ======
 I made the navbar change into a mobile navigation menu to ensure it would function well on mobile devices.
-The call to action buttons work on mobile and desktop devices.
-The meditions I made can be played on the site or on youtube.
+The call to action buttons works on mobile and desktop devices.
+The meditions I made can be played on the site itself  or on youtube.
+
+**Features for the future** <br>
+The following items can be add: <br>
++ A custom made login
++ Moon cycle period tracker
++ Personal journal for setting goals 
++ Moon phases linked to zodiac sign
++ Birthday moon history tracker
++ Yoga exercises fitting to the current moon phase
+
 
 Technologies
 ======
 
-**Code languages**
+**Code languages and frameworks**
 + HTML5
 + CSS3
 + Bootstrap 4.4.1
@@ -90,15 +100,25 @@ Technologies
 **Wireframe**
 + Adobe XD
 
-**Other programs**
+**Others**
 + Adobe Photoshop: to resize images that were to large to use.
 + Adobe Illustrater: to create part of moon calender, homepage image and toggler icon.
-+ Adobe Premiere Pro: to make audio meditations
-+ VScode: to write my code in
++ Adobe Indesign to make wireframes A3 pdf's.
++ Adobe Premiere Pro: to make audio meditations.
++ VScode: to write my code.
 
 Bugs
 ======
-!!!!Add content here!!!!!
+I had a problem with my navigation menu on the homepage, it  was pushing the content down:
+<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/menu_bug.png" alt="Menu bug"/>
+that was not supposed to happen. I fixed it by changing my ccs from  ''' .navbar {
+	position: sticky;
+}''' 
+to 
+'''.navbar {
+	position: fixed;
+	width: 100%
+}''' 
 
 Testing
 ======
