@@ -48,7 +48,7 @@ Links to my wireframes can be found here:
 
 **Surface**
 
-The colors in the color pallet I got by using the homepage image and uploading it to https://colordesigner.io/color-palette-from-image and then select to get 10 colors.
+The colors in the color pallet I got by using the homepage image and uploading it to an Adobe XD plugin [Color Designer](https://colordesigner.io/color-palette-from-image) and then select the option to get 10 colors. <br>
 Additionally during making the wireframe I stumbled upon 2 colors which I used for the buttons and the text which are not in the color pallet. These are #FAF7F7 and #4A3F46.
 
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/color_pallet.png" alt="Color pallet"/>
@@ -66,8 +66,7 @@ What I changed was:
 
 **Fonts & icons**
 
-I used [Google Fonts](https://fonts.google.com/) <br>
-The font I found in Adobe XD was Avenir, unfortunately this wasn’t a Google font, so I picked a similar one, Nunito.
+I used [Google Fonts](https://fonts.google.com/), the font I found in Adobe XD was Avenir, unfortunately this wasn’t a Google font, so I picked a similar one, Nunito.
 
 
 For the icons I used [Font Awesome](https://fontawesome.com/)
@@ -78,6 +77,7 @@ I made the navbar change into a mobile navigation menu which collapse to ensure 
 The call to action buttons works on mobile and desktop devices and the meditions I made can be played on the site itself or on youtube.
 
 **Features for the future** <br>
+<br>
 The following items can be add: 
 + A custom made login
 + Moon cycle period tracker
@@ -108,14 +108,14 @@ Technologies
 Bugs
 ======
 #### Navigation menu
-I had a problem with my navigation menu on the homepage, it  was pushing the content down:
+I had a problem with my navigation menu on the homepage, it  was pushing the content down,
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/menu_bug.png" alt="Menu bug"/> <br>
-that was not supposed to happen. I fixed it by changing my ccs from <br>  
+that was not supposed to happen. I fixed it by changing my ccs from: <br>  
 .navbar { <br>
 	position: sticky; <br>
 } <br>
 <br>
-to <br>
+to: <br>
 <br>
 .navbar { <br>
 	position: fixed; <br>
@@ -123,12 +123,11 @@ to <br>
 } <br>
 
 #### YouTube videos
-After adding my meditations that I put on youtube in my code with an iframe they wouldn't play. By searching on [Google](https://www.google.com/) I found this [site](https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262) where was explained how to fix it.
+After uploading my meditations on [YouTube](https://www.youtube.com/) and putting it in my code with an iframe they wouldn't play. By searching on [Google](https://www.google.com/) I found this [site](https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262) where was explained how to fix it.
 
 Testing
 ======
-1. [Color blindness](https://www.toptal.com/designers/colorfilter/)
-was tested on this site to ensure you would still be able to read the site when you have different types of color blindness.
++ Color blindness was tested on this [site](https://www.toptal.com/designers/colorfilter/) to ensure you would still be able to read my site when you have different types of color blindness.
 
 Deployment
 ======
@@ -150,46 +149,63 @@ All content is writen by myself based on what I've learned during the [Happinez 
 ### Media 
 #### Images:
 1. [Pexels](https://www.pexels.com/) 
-* homepage image is a _combined image_ --> _pink-clouds-background by Jack Anstey_
-* Gratitude meditation image --> Boy of Water Under Blue and Red Sky by Trung Nguyen
+* homepage image is a _combined image_ 
+    - _pink-clouds-background by Jack Anstey_
+* Gratitude meditation image
+    - Boy of Water Under Blue and Red Sky by Trung Nguyen
 
 2. [Cleanpng](https://www.cleanpng.com/)
-* homepage image is a _combined image_ --> _png-moon-png-54278 by Divasiri_
+* homepage image is a _combined image_ 
+    - _png-moon-png-54278 by Divasiri_
 
-3. These image were downloaded with a trial [Shutterstock](https://www.shutterstock.com/) account
-* moon_phases image --> ID: 1090336661 by Eisfrei
-* new_moon image --> ID: 509457424 by THANAKRIT SANTIKUNAPORN
-* waxing_gibbous_moon image --> ID: 100023281 by Mihai-Bogdan Lazar
-* third_quarter_moon image --> ID: 124266622 by Procy
-* full_moon image --> ID: 350316134 by TuiPhotoEngineer
-* waning_gibbous_moon image --> ID: 643273564 by Cristian Cestaro
-* waning_crescent_moon image --> ID: 742746820 by Lukasz Pawel Szczepanski
-* full_moon_pink image --> ID: 1611988528 by nednapa
-* Intuition meditation image --> ID: 511867600 by Triff
+3. These image were downloaded with a trial [Shutterstock](https://www.shutterstock.com/) account:
+* moon_phases image 
+    - ID: 1090336661 by Eisfrei
+* new_moon image
+    - ID: 509457424 by THANAKRIT SANTIKUNAPORN
+* waxing_gibbous_moon image
+    - ID: 100023281 by Mihai-Bogdan Lazar
+* third_quarter_moon image 
+    - ID: 124266622 by Procy
+* full_moon image
+    - ID: 350316134 by TuiPhotoEngineer
+* waning_gibbous_moon image
+    - ID: 643273564 by Cristian Cestaro
+* waning_crescent_moon image
+    - ID: 742746820 by Lukasz Pawel Szczepanski
+* full_moon_pink image
+    - ID: 1611988528 by nednapa
+* Intuition meditation image
+    - ID: 511867600 by Triff
 
 
 4. [Rawpixel](https://www.rawpixel.com/)
-* waxing_crescent_moon image --> id-440089 Original from NASA. Digitally enhanced by rawpixel
-* first_quarter_moon image --> id-440197 Original from NASA. 
-Digitally enhanced by rawpixel
+* waxing_crescent_moon image
+    - id-440089 Original from NASA, digitally enhanced by rawpixel
+* first_quarter_moon image
+    - id-440197 Original from NASA, digitally enhanced by rawpixel
 
 5. [Pikwizard](https://pikwizard.com/)
-* Sleep meditation image --> Sky Atmosphere Sun
+* Sleep meditation image
+    - Sky Atmosphere Sun
 
 6. [Unsplash](https://unsplash.com/)
-* Confidence meditation image --> U-Kty6HxcQc by Benjamin Voros 
-* Positivity meditation image --> oMpAz-DN-9I by Greg Rakozy 
-* Body scan meditation image --> FnKEsLuPQvI by Ingmar
+* Confidence meditation image 
+    - U-Kty6HxcQc by Benjamin Voros 
+* Positivity meditation image 
+    - oMpAz-DN-9I by Greg Rakozy 
+* Body scan meditation image
+    - FnKEsLuPQvI by Ingmar
 
 #### Music:
 1. [YouTube Studio](https://studio.youtube.com/channel/UC991useTgs7W2PofwhpouBw/music)
-* Satya Yuga by Jesse Gallagher
+    - Satya Yuga by Jesse Gallagher
 
 2. [BigSoundBank](https://bigsoundbank.com/detail-1110-tibetan-bowl-struck.html)
-* Tibetan bowl struck by Joseph SARDIN
+    - Tibetan bowl struck by Joseph SARDIN
 
 3. Meditation storyteller
-* Self (Daphne Heimgartner-Frankhuisen)
+    - Self (Daphne Heimgartner-Frankhuisen)
 
 #### Code:
 1. [W3schools](https://www.w3schools.com/html/html_youtube.asp)
