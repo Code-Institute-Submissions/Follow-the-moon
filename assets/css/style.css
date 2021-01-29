@@ -40,14 +40,21 @@ body {
 
 /* ------------- Navbar Overlays ------------- */
 
-.transparant-overlay {
+/* Problem with overlay transparancy, try to fix it another way */
+
+/* .transparant-overlay {
     position: relative;
-    background-color: rgb(255, 255, 255, 0.25);
-}
+    background-color: rgba(255, 255, 255, 0.534);
+} */
 
 #daily-overlay {
     position: sticky;
     background-color: #E3A99D;
+}
+
+#calendar-overlay{
+    position: sticky;
+    background-color: #9E7B78;
 }
 
 #phases-overlay {
@@ -78,10 +85,6 @@ body {
 .navbar {
     position: fixed;
     width: 100%;
-}
-
-#navbar-calendar{
-    position: sticky;
 }
 
 .navbar-light .active {
@@ -257,11 +260,6 @@ p#inbetween-text {
     height: 200px;
 }
 
-/* ------------- Calendar content ------------- */
-
-
-
-
 /* ------------- Phases content ------------- */
 
 div.phase-body {
@@ -384,6 +382,10 @@ p.meditation-text {
     background-color: #52547A;
 }
 
+#footer-calendar {
+    background-color: #9E7B78;
+}
+
 footer i {
     color: #FAF7F7;
 }
@@ -423,6 +425,7 @@ footer .list-inline {
 }
 
 @media screen and (min-width: 769px) {
+   
     #non-mobile-hide {
         display: none;
     }
