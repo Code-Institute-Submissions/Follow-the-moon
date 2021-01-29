@@ -259,40 +259,8 @@ p#inbetween-text {
 
 /* ------------- Calendar content ------------- */
 
-.calendar-content {
-    margin-top: 150px;
-}
 
-h1 {
-    margin-top: 25px;
-}
 
-p {
-    margin-top: 25px;
-    margin-bottom: 25px;
-    font-size: 20px;
-}
-
-#download  {
-    margin-top: 32px;
-}
-
-#download_icon {
-    padding-left: 2px;
-    color: #FAF7F7;
-}
-
-@media screen and (max-width: 600px) {
-    .calendar-content {
-        margin-top: 50px;
-    }
-    h1 {
-        margin-top: 0px;
-    }
-    p {
-        margin-top: 10px;
-    }
-}
 
 /* ------------- Phases content ------------- */
 
@@ -442,6 +410,7 @@ footer .list-inline {
 
 ::before {
     padding: 3px;
+    color: #FAF7F7;
 }
 
 @media screen and (max-width: 768px) {
