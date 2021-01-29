@@ -215,3 +215,4 @@ To help me embed the YouTube videos in my code.
 ### Acknowledgements
 + My mentor, thank you Narender for your time and guidence.
 + My husband, thank you Django for taking care of our son more so I can work on my education and thank you for your patience!
++ Anna Greaves, thank you so much for your explanation [site](https://ajgreaves.github.io/bootstrap-grid-demo/index.html) about the bootstrap grid, it really helped me understand it a lot better.
