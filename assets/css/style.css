@@ -233,74 +233,23 @@ a.nav-link .navbar-nav {
 
 /* ------------- Phases content ------------- */
 
-div.phase-body {
-    padding-top: 0;
-    padding-bottom: 75px;
-    margin-left: 80px;
-}
-
 .phasescard {
     background-color: #7A6C7E;
     border-color: #7A6C7E;
     max-width: 100%;
 }
 
-p.phase-text {
-    font-size: 18px;
-}
-
-img.phase-img {
-    max-width: 300px;
-    height: 300px;
-    margin-left: 80px;
-    padding-bottom: 20px;
-}
-
 @media screen and (max-width: 600px) {
-    div.phase-body {
-        padding-bottom: 50px;
-        margin-left: 16px;
-    }
-    img.phase-img {
-        margin-right: 41px;
-        margin-left: 41px;
-    }
-    h3.card-title {
+    .phasescard {
         text-align: center;
     }
-}
 
-@media screen and (min-width: 768px) and (max-width: 768px) {
-    div.phase-body {
-        padding-left: 0px;
-        margin-left: 0px;
-    }
-    img.phase-img {
-        max-width: 200px;
-        height: 200px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    h3.card-title {
-        text-align: center;
+    img.card-img {
+        width: 275px;
+        height: 275px;
     }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1200px) {
-    img.phase-img {
-        max-width: 250px;
-        height: 250px;
-        padding-left: 26px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    div.phase-body {
-        padding-left: 0;
-    }
-}
 
 /* ------------- Meditations content ------------- */
 
