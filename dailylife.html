@@ -33,16 +33,20 @@
     <!-- Navbar end -->
 
     <!-- Daily life content -->
-    <section class="container-fluid daily-content">
-        <div class="row">
-            <div class="col-12 moon-header">
-                <img src="assets/images/full_moon_pink.jpg" class="img-fluid" alt="Full Moon Pink">
-                <div id="text_header">Moon Influence on our daily life</div>
-            </div>
+
+    <!-- <div class="bg-pink"></div>  parrallax effect not responsive -->
+
+    <div class="row">
+        <div class="col-12 container-fluid">
+            <img src="assets/images/full_moon_pink.jpg" class="img-fluid" alt="Full Moon Pink">   
         </div>
+    </div>
+    
+    <section>
         <div class="row">
-            <div class="col-12 text-center">
-                <p id="inbetween-text">
+            <div class="col-12 my-5 text-center">
+                <h1 id="influence">Moon Influence on our daily life</h1>
+                <p class="mx-5 mt-5">
                     The moon has a huge influence on our daily life, more than most people realise.
                     You can see is in the tides of the ocean and sea, but also in human life.
                     The moon’s energy is the strongest during the new moon and full moon phase, that’s why there are a
@@ -53,12 +57,12 @@
                     It seems that the full moon also affects other things in nature, seeds grow more easily, in plants
                     the sap flow seems to accelerate and animals can become restless.
                 </p>
-                <p id="inbetween-text">
+                <p class="mx-5 mt-4">
                     The energy of the moon can be divided between Yin and Yang, Yin stands for relaxation, intuition,
                     self-examination and withdrawal.
                     Strength, expression and action / activity belong to the Yang energy.
                 </p>
-                <p>
+                <p class="mx-5 mt-4">
                     Especially for women the moon has extra influence, namely on the menstrual cycle.
                     The Latin word mēnsis is the foundation of the word menstrual cycle, month and moon, there is a
                     cohesion between the moon cycle and the menstrual cycle. Depending on the duration of the menstrual
@@ -68,8 +72,10 @@
                     As far as I know there is no scientific prove but sometimes a peak is seen in births around the full
                     moon and new moon phase.
                 </p>
-                <button class="btn btn-lg btn_cta btn_purple" id="btn_follow" data-toggle="modal" data-target="#signUpModal">Follow me!</button>
             </div>
+        </div>
+        <div id="daily-content">
+            <button class="btn btn-lg btn_cta btn_purple mt-5" id="btn_follow" data-toggle="modal" data-target="#signUpModal">Follow me!</button>
         </div>
     </section>
     <!-- Daily life end -->
@@ -133,7 +139,7 @@
                 </div>
                 <div class="modal-body">
                     <p>Interested in our newsletter? <strong>Sign up</strong></p>
-                    <form>
+                    <form onsubmit="myFunction()">
                         <div class="form-group">
                             <label for="fname">First Name</label>
                             <input type="text" class="form-control" id="fname" placeholder="First Name" required>
@@ -155,6 +161,11 @@
             </div>
         </div>
     </div>
+    <script>
+        function myFunction() {
+          alert("Thank you for signing up!");
+        }
+        </script>
     <!-- Follow modal end -->
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
