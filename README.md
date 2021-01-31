@@ -157,6 +157,8 @@ All content is writen by myself based on what I've learned during the [Happinez 
 2. [Cleanpng](https://www.cleanpng.com/)
 * homepage image is a _combined image_ 
     - _png-moon-png-54278 by Divasiri_
+* meditation_pose image
+    -  kisspng-buddhist-meditation-christian-meditation-buddhism by Doneasha
 
 3. These image were downloaded with a trial [Shutterstock](https://www.shutterstock.com/) account:
 * moon_phases image 
