@@ -3,6 +3,7 @@
 body {
     font-family: 'Nunito', sans-serif;
     color: #FAF7F7; 
+    margin-top: 100px;
 }
 
 #homepage {
@@ -24,7 +25,6 @@ body {
 
 #dailylife {
     background-color: #E3A99D;
-    border-color: #E3A99D;
 }
 
 #meditations {
@@ -37,42 +37,13 @@ body {
     width: 100%;
 }
 
-/* ------------- Navbar Overlays ------------- */
-
-/* Problem with overlay transparancy, try to fix it another way */
-
-/* .transparant-overlay {
-    position: relative;
-    background-color: rgba(255, 255, 255, 0.534);
-} */
-
-#daily-overlay {
-    position: sticky;
-    background-color: #E3A99D;
-}
-
-#calendar-overlay {
-    position: sticky;
-    background-color: #9E7B78;
-}
-
-#phases-overlay {
-    position: sticky;
-    background-color: #7A6C7E;
-}
-
-#meditations-overlay {
-    position: sticky;
-    background-color: #52547A;
-}
-
 /* ------------- Navbar ------------- */
 
 .navbar-light .navbar-nav .nav-link {
     color: #FAF7F7;
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link {
     color: #FaF7F7;
 }
 
@@ -83,7 +54,9 @@ body {
 
 .navbar {
     position: fixed;
+    margin-bottom: 15px;
     width: 100%;
+    background-color: rgba(29, 27, 29, 0.404);
 }
 
 .navbar-light .active {
@@ -208,6 +181,11 @@ a.nav-link .navbar-nav {
 	background-size: cover; 
 }  check parrallax effect not responsive */
 
+#daily {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 #daily-content {
     height: 150px;
     margin-bottom: 25px;
@@ -229,6 +207,10 @@ a.nav-link .navbar-nav {
 #blue_moon {
     width: 200px;
     height: 200px;
+}
+
+.modal {
+    width: 95%;
 }
 
 /* ------------- Phases content ------------- */
@@ -277,25 +259,9 @@ iframe {
 /* ------------- Footer ------------- */
 
 .fixed-bottom {
-    background-color: rgb(255, 255, 255, 0.25);
+    background-color: rgba(99, 96, 99, 0.404);
     padding: 8px, 0px;
     margin: 0;
-}
-
-#footer-daily {
-    background-color: #E3A99D;
-}
-
-#footer-phases {
-    background-color: #7A6C7E;
-}
-
-#footer-meditations {
-    background-color: #52547A;
-}
-
-#footer-calendar {
-    background-color: #9E7B78;
 }
 
 footer i {
@@ -330,15 +296,6 @@ footer .list-inline {
 
 @media screen and (max-width: 768px) {
     .contact {
-        display: none;
-    }
-    #mobile-hide {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 769px) {
-    #non-mobile-hide {
         display: none;
     }
 }
