@@ -256,22 +256,22 @@ a.nav-link .navbar-nav {
 .meditationcard {
     background-color: #52547A;
     border-color: #52547A;
-    max-width: 100%;
-    margin-top: 30px;
-    border-bottom-width: 30px;
-    margin-bottom: 45px;
-}
-
-.meditation-body {
     text-align: center;
 }
 
-p.meditation-text {
-    font-size: 16px;
+.img-card {
+    background-color: #52547A;
+    border-color: #52547A;
 }
 
-.meditationcard iframe {
+.meditation-img {
+    width: 40%;
+}
+
+iframe {
     border: none;
+    width: 350px;
+    height: 250px;
 }
 
 /* ------------- Footer ------------- */
