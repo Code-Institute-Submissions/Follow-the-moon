@@ -66,7 +66,7 @@ What I changed was:
 
 **Fonts & icons**
 
-I used [Google Fonts](https://fonts.google.com/), the font I found in Adobe XD was Avenir, unfortunately this wasn’t a Google font, so I picked a similar one, Nunito.
+In Adobe XD I saw a font, Avenir, which I found fitting for my website because of the clean and thin appearcence. I used [Google Fonts](https://fonts.google.com/) to embed it in my code, unfortunately Avenir wasn’t a Google font, so I picked one that was similar to it, Nunito.
 
 
 For the icons I used [Font Awesome](https://fontawesome.com/)
@@ -94,6 +94,7 @@ Technologies
 + HTML5
 + CSS3
 + Bootstrap 4.4.1
++ JavaScript
 
 **Wireframe**
 + Adobe XD
@@ -110,17 +111,21 @@ Bugs
 #### Navigation menu
 I had a problem with my navigation menu on the homepage, it  was pushing the content down,
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/menu_bug.png" alt="Menu bug"/> <br>
-that was not supposed to happen. I fixed it by changing my ccs from: <br>  
-.navbar { <br>
-	position: sticky; <br>
-} <br>
-<br>
-to: <br>
-<br>
-.navbar { <br>
-	position: fixed; <br>
-	width: 100% <br>
-} <br>
+that was not supposed to happen. I fixed it by changing my ccs from:  
+```
+.navbar { 
+	position: sticky; 
+} 
+```
+
+to: 
+
+```
+.navbar { 
+	position: fixed; 
+	width: 100% 
+} 
+```
 
 #### YouTube videos
 After uploading my meditations on [YouTube](https://www.youtube.com/) and putting it in my code with an iframe they wouldn't play. By searching on [Google](https://www.google.com/) I found this [site](https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262) where was explained how to fix it.
@@ -128,6 +133,11 @@ After uploading my meditations on [YouTube](https://www.youtube.com/) and puttin
 Testing
 ======
 + Color blindness was tested on this [site](https://www.toptal.com/designers/colorfilter/) to ensure you would still be able to read my site when you have different types of color blindness.
++ CSS code was tested with a [CSS](https://jigsaw.w3.org/css-validator/#validate_by_input) validator, one failure remains, it says "text underline offset property does not exist: 0.4em" but this is a functional CSS property.
++ HTML code was tested with a [HTML](https://validator.w3.org/#validate_by_input) validator, it gives an error for the iframes of the meditations.html: "Text not allowed in element iframe in this context." but I choose to ignore this, because this is what I learned in the HTML iframes section of the course: "Some very old browsers do not support iframes. It is good practice to add a message to be displayed to users when the iframe will not load. This message goes between the opening and closing iframe tags like this:
+```
+ <iframe src="..."><p>Your browser does not support iframes.</p></iframe>"
+```
 
 Deployment
 ======
