@@ -175,7 +175,7 @@ a.nav-link .navbar-nav {
     max-width: 100%;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767.98px) {
     .phasescard {
         text-align: center;
     }
@@ -252,7 +252,7 @@ footer .list-inline {
     color: #FAF7F7;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767.98px) {
     .contact {
         display: none;
     }
