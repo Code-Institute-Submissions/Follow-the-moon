@@ -11,6 +11,8 @@ Demo
 
 By clicking this [link](https://daph1986.github.io/Follow-the-moon/) a live demo version will be visible.
 
+<img src="assets/images/README images/responsive_mockup.png" alt="Responsive image"/>
+
 UX
 ======
 It will be a B2C site which targets audience interested in moonology / yoga / spirituality.
@@ -49,7 +51,7 @@ Links to my wireframes can be found here:
 **Surface**
 
 The colors in the color pallet I got by using the homepage image and uploading it to an Adobe XD plugin [Color Designer](https://colordesigner.io/color-palette-from-image) and then select the option to get 10 colors. <br>
-Additionally during making the wireframe I stumbled upon 2 colors which I used for the buttons and the text which are not in the color pallet. These are #FAF7F7 and #4A3F46.
+Additionally, during making the wireframe I stumbled upon 2 colors which I used for the buttons and the text which are not in the color pallet. These are #FAF7F7 and #4A3F46.
 
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/color_pallet.png" alt="Color pallet"/>
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_%234A3F46.png" alt="Hex Color #4A3F46"/>
@@ -59,14 +61,14 @@ During development I restructured my website layout a little bit, because I saw 
 What I changed was:
 1. The homepage I changed my button to from "Follow me!" to "Curious to know more?" this seemed to make more sense. I also made it link to the Daily life page. 
 2. The daily life page, I changed the page position in the navbar from fourth page to second page. This was more logical because the button on the homepage was changed and linked to this page. I then added the "Follow me!" button to this page, where you can sign up for the newsletter. 
-3. The moon calendar page I changed the "Download me!" button into "View me!" so that the calendar appeard in a pop-up which was an advise given by my mentor. But because then it would not be responsive to get it into the original A4 size I decided to add a download link for if you would like to save it and print it.
+3. The moon calendar page I changed the "Download me!" button into "View me!" so that the calendar appeared in a pop-up which was an advice given by my mentor. But because then it would not be responsive to get it into the original A4 size I decided to add a download link for if you would like to save it and print it.
 4. The moon calendar, I decided to change the background color from hex color #52547A to hex color #9E7B78. This was to create more unity with the moon calendar page.
-5. The meditations page, the page has a lot less text then the moon phases page, that is why I decided to change the layout into card decks. This resulted in a visually better oriented page.
-6. I removed the transparant navbar and footer layer for the daily life, moon phases and meditations page, because otherwise when scrolling you would get difficulties reading the text and the toggler menu on the mobile version would not be readable.
+5. The meditations page, the page has a lot less text than the moon phases page, that is why I decided to change the layout into card decks. This resulted in a visually better oriented page.
+6. I removed the transparent navbar and footer layer for the daily life, moon phases and meditations page, because otherwise when scrolling you would get difficulties reading the text and the toggler menu on the mobile version would not be readable.
 
 **Fonts & icons**
 
-In Adobe XD I saw a font, Avenir, which I found fitting for my website because of the clean and thin appearcence. I used [Google Fonts](https://fonts.google.com/) to embed it in my code, unfortunately Avenir wasn’t a Google font, so I picked one that was similar to it, Nunito.
+In Adobe XD I saw a font, Avenir, which I found fitting for my website because of the clean and thin appearance. I used [Google Fonts](https://fonts.google.com/) to embed it in my code, unfortunately Avenir wasn’t a Google font, so I picked one that was similar to it, Nunito.
 
 
 For the icons I used [Font Awesome](https://fontawesome.com/)
@@ -74,11 +76,11 @@ For the icons I used [Font Awesome](https://fontawesome.com/)
 Features
 ======
 I made the navbar change into a mobile navigation menu which collapse to ensure it would function well on mobile devices. <br>
-The call to action buttons works on mobile and desktop devices and the meditions I made can be played on the site itself or on youtube.
+The call to action buttons works on mobile and desktop devices and the mediations I made can be played on the site itself or on YouTube.
 
 **Features for the future** <br>
 <br>
-The following items can be add: 
+The following items can be added: 
 + A custom made login
 + Moon cycle period tracker
 + Personal journal for setting goals 
@@ -100,16 +102,16 @@ Technologies
 + Adobe XD
 
 **Others**
-+ Adobe Photoshop: to resize images that were to large to use and to create the combined homepage image.
-+ Adobe Illustrater: to create part of moon calender and toggler icon.
-+ Adobe Indesign to make wireframes A3 pdf's and the menu bug image.
++ Adobe Photoshop: to resize images that were too large to use and to create the combined homepage image.
++ Adobe Illustrator: to create part of moon calendar and toggler icon.
++ Adobe InDesign to make wireframes A3 pdf's and the menu bug image.
 + Adobe Premiere Pro: to make audio meditations.
-+ VScode: to write my code.
++ VSCode: to write my code.
 
 Bugs
 ======
 #### Navigation menu
-I had a problem with my navigation menu on the homepage, it  was pushing the content down, that was not supposed to happen. 
+I had a problem with my navigation menu on the homepage, it was pushing the content down, that was not supposed to happen. 
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/menu_bug.png" alt="Menu bug"/> <br>
 I fixed it by changing my ccs from:  
 ```
@@ -140,28 +142,36 @@ Testing
 ```
 text underline offset property does not exist: 0.4em
 ``` 
-but this is a functional CSS property.
-+ HTML code was tested with a [HTML](https://validator.w3.org/#validate_by_input) validator, it gives an error for the iframes of the meditations.html: "Text not allowed in element iframe in this context." but I choose to ignore this, because this is what I learned in the HTML iframes section of the course: "Some very old browsers do not support iframes. It is good practice to add a message to be displayed to users when the iframe will not load. This message goes between the opening and closing iframe tags like this:
+I left it this way because this is a functional CSS property, it does what it's supposed to do, give a little space between the underline and the active page in the navbar. I tested this on multiple desktop browsers like Google Chrome, Safari, Microsoft Edge and Firefox.
++ HTML code was tested with a [HTML](https://validator.w3.org/#validate_by_input) validator, it gives an error for the iframes of the meditations.html: 
+```
+Text not allowed in element iframe in this context.
+``` 
+I choose to ignore this, because this is what I learned in the HTML iframes section of the course: 
+```
+Some very old browsers do not support iframes. It is good practice to add a message to be displayed to users when the iframe will not load. This message goes between the opening and closing iframe tags like this:
+```
 ```
  <iframe src="..."><p>Your browser does not support iframes.</p></iframe>"
 ```
+I did try consult with tutor assistance about it, a srcdoc attribute was tested, but then the iframe wouldn't load.
 
 Deployment
 ======
 To view a live version of my site GitHub Pages was used.
 A new public repository on GitHub was created, which deploys from the master branch.
-Within VScode the "git push" command ensures the changes and new commits to the site are updated to the master branch.
-Make sure you make a index.html landing page in order for the site to deploy on GitHub Pages.
+Within VSCode the "git push" command ensures the changes and new commits to the site are updated to the master branch.
+Make sure you make an index.html landing page in order for the site to deploy on GitHub Pages.
 
 By clicking this [link](https://daph1986.github.io/Follow-the-moon/) the live demo version will be visible.
 
-If you would like to run this site locally you can clone this repository in an editor such as Cloud9 or VScode.
+If you would like to run this site locally you can clone this repository in an editor such as Cloud9 or VSCode.
 You can clone it by clicking the green "Code" button and copy the given link.
 
 Credits
 ======
 ### Content
-All content is writen by myself based on what I've learned during the [Happinez moon course](https://www.happinez.nl/online-training/leef-met-de-maan/), during my enjoyed courses and lessons with [Yoga Maarssen](https://www.yogamaarssen.nl/) and the extra educational information about [gemstones](https://www.edelstenenenmineralen.nl/).
+All content is written by myself based on what I've learned during the [Happinez moon course](https://www.happinez.nl/online-training/leef-met-de-maan/), during my enjoyed courses and lessons with [Yoga Maarssen](https://www.yogamaarssen.nl/) and the extra educational information about [gemstones](https://www.edelstenenenmineralen.nl/).
 
 ### Media 
 #### Images:
@@ -177,7 +187,7 @@ All content is writen by myself based on what I've learned during the [Happinez 
 * meditation_pose image
     -  kisspng-buddhist-meditation-christian-meditation-buddhism by Doneasha
 
-3. These image were downloaded with a trial [Shutterstock](https://www.shutterstock.com/) account:
+3. These images were downloaded with a trial [Shutterstock](https://www.shutterstock.com/) account:
 * moon_phases image 
     - ID: 1090336661 by Eisfrei
 * new_moon image
@@ -216,6 +226,12 @@ All content is writen by myself based on what I've learned during the [Happinez 
 * Body scan meditation image
     - FnKEsLuPQvI by Ingmar
 
+7. This image is licensed with a paid [Adobe Stock](https://stock.adobe.com/) account:
+* responsive_mockup image
+    - AdobeStock_362054394
+
+
+
 #### Music:
 1. [YouTube Studio](https://studio.youtube.com/channel/UC991useTgs7W2PofwhpouBw/music)
     - Satya Yuga by Jesse Gallagher
@@ -232,6 +248,7 @@ To help me embed the YouTube videos in my code.
 2. [Stackoverflow](https://stackoverflow.com/questions/37814508/order-columns-through-bootstrap4) to help me reverse the order of my moon phase cards on the mobile layout. 
 
 ### Acknowledgements
-+ My mentor, thank you Narender for your time and guidence.
++ My mentor from Code Institute, thank you Narender for your time and guidance.
 + My husband, thank you Django for taking care of our son more so I can work on my education and thank you for your patience!
-+ Anna Greaves, thank you so much for your explanation [site](https://ajgreaves.github.io/bootstrap-grid-demo/index.html) about the bootstrap grid, it really helped me understand it a lot better.
++ Anna Greaves from Code Institute, thank you so much for your explanation [site](https://ajgreaves.github.io/bootstrap-grid-demo/index.html) about the bootstrap grid, it really helped me understand it a lot better.
++ Igor from Code Institute tutor assistance, thank you for your explanation and help with my validator errors and your ideas about my background image bug.
