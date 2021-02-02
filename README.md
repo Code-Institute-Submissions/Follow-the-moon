@@ -1,4 +1,4 @@
-Follow the moon  (UNDER CONSTRUCTION)
+Follow the moon
 ======
 **Code Institute Milestone Project 1: User Centric Frontend Development**
 
@@ -100,8 +100,8 @@ Technologies
 + Adobe XD
 
 **Others**
-+ Adobe Photoshop: to resize images that were to large to use.
-+ Adobe Illustrater: to create part of moon calender, the combined homepage image and toggler icon.
++ Adobe Photoshop: to resize images that were to large to use and to create the combined homepage image.
++ Adobe Illustrater: to create part of moon calender and toggler icon.
 + Adobe Indesign to make wireframes A3 pdf's and the menu bug image.
 + Adobe Premiere Pro: to make audio meditations.
 + VScode: to write my code.
@@ -109,9 +109,9 @@ Technologies
 Bugs
 ======
 #### Navigation menu
-I had a problem with my navigation menu on the homepage, it  was pushing the content down,
+I had a problem with my navigation menu on the homepage, it  was pushing the content down, that was not supposed to happen. 
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/menu_bug.png" alt="Menu bug"/> <br>
-that was not supposed to happen. I fixed it by changing my ccs from:  
+I fixed it by changing my ccs from:  
 ```
 .navbar { 
 	position: sticky; 
@@ -127,13 +127,20 @@ to:
 } 
 ```
 
+My homepage background image had a bug, when the screen was above about 1550px in width, a part of the moon was pushed under the footer, which didn't look very good.
+Eventually I solved this problem by reducing my moon in photoshop, so it was still partly displayed on mobile devices but on large sizes it wasn't push below the footer.
+
 #### YouTube videos
 After uploading my meditations on [YouTube](https://www.youtube.com/) and putting it in my code with an iframe they wouldn't play. By searching on [Google](https://www.google.com/) I found this [site](https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262) where was explained how to fix it.
 
 Testing
 ======
 + Color blindness was tested on this [site](https://www.toptal.com/designers/colorfilter/) to ensure you would still be able to read my site when you have different types of color blindness.
-+ CSS code was tested with a [CSS](https://jigsaw.w3.org/css-validator/#validate_by_input) validator, one failure remains, it says "text underline offset property does not exist: 0.4em" but this is a functional CSS property.
++ CSS code was tested with a [CSS](https://jigsaw.w3.org/css-validator/#validate_by_input) validator, one failure remains, it says:
+```
+text underline offset property does not exist: 0.4em
+``` 
+but this is a functional CSS property.
 + HTML code was tested with a [HTML](https://validator.w3.org/#validate_by_input) validator, it gives an error for the iframes of the meditations.html: "Text not allowed in element iframe in this context." but I choose to ignore this, because this is what I learned in the HTML iframes section of the course: "Some very old browsers do not support iframes. It is good practice to add a message to be displayed to users when the iframe will not load. This message goes between the opening and closing iframe tags like this:
 ```
  <iframe src="..."><p>Your browser does not support iframes.</p></iframe>"
