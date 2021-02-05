@@ -83,7 +83,9 @@ a.nav-link .navbar-nav {
 #btn_follow {
   position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   font-size: 20px;
   width: 150px;
 }
@@ -102,13 +104,17 @@ a.nav-link .navbar-nav {
   text-decoration: none;
 }
 
+/* ------------- Modals ------------- */
+
+.modal {
+  background-color: rgba(29, 27, 29, 0.616);
+}
+
+
 /* ------------- Homepage ------------- */
 
 #homepage {
   background: url("../images/homepage.jpg") no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   max-width: 100%;
   position: fixed;
@@ -117,7 +123,7 @@ a.nav-link .navbar-nav {
 /* ------------- Daily life content ------------- */
 
 #dailylife {
-  background-color: #E3A99D;
+  background-color: #c9777f;;
 }
 
 #daily {
@@ -151,7 +157,7 @@ a.nav-link .navbar-nav {
 /* ------------- Moon calendar content ------------- */
 
 #mooncalendar {
-  background-color: #9E7B78;
+  background-color: #866061;
 }
 
 #download-text {
