@@ -65,8 +65,8 @@ The colors in the color pallet I got by using the homepage image and uploading i
 Additionally, during making the wireframe I stumbled upon 2 colors which I used for the buttons and the text which are not in the color pallet. These are #FAF7F7 and #4A3F46.
 
 <img src="assets/images/README images/color_pallet.png" alt="Color pallet"/>
-<img src="assets/images/README images/hex_color_#4A3F46.png" alt="Hex Color #4A3F46"/>
-<img src="assets/images/README images/hex_color_#FAF7F7.png" alt="Hex Color #FAF7F7"/> 
+<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_%234A3F46.png" alt="Hex Color #4A3F46"/>
+<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_%23FAF7F7.png" alt="Hex Color #FAF7F7"/> 
 
 During development I restructured my website layout a little bit, because I saw that this was visually better.
 What I changed was:
@@ -121,7 +121,7 @@ Technologies
 Bugs
 ======
 #### Navigation menu
-I had a problem with my navigation menu on the homepage, it was pushing the content down, that was not supposed to happen. 
+I had a problem with my navigation menu on the homepage, it was pushing the content down, that was not supposed to happen. <br>
 <img src="assets/images/README images/menu_bug.png" alt="Menu bug"/> <br>
 I fixed it by changing my ccs from:  
 ```
@@ -148,7 +148,7 @@ After uploading my meditations on [YouTube](https://www.youtube.com/) and puttin
 Testing
 ======
 The testing has more content the expected so I choose to report this in a separate
-[file](TESTING.md)
+[file](TESTING.md).
 
 Deployment
 ======
