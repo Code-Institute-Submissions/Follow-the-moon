@@ -8,6 +8,7 @@
   <title>Follow the moon</title>
   <link rel="icon" href="assets/images/favicon.png" type="image/png" sizes="32x32">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+  <link rel="preload" href="https://code.jquery.com/jquery-3.5.1.slim.min" as="script">
   <script src="https://kit.fontawesome.com/bfb2f288ba.js"></script>
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
@@ -45,11 +46,11 @@
         </p>
         <button type="button" class="btn btn-lg btn-cta btn_purple my-3" id="btn_view" data-toggle="modal"
           data-target=".bd-example-modal-lg">
-          View me!
+          View calendar!
         </button>
         <div class="my-3">
           <span>
-            If you want to download or print me,
+            If you want to download or print the calendar,
             <a target="_blank" href="assets/images/printable_mooncalendar.pdf" id="download-text">
               click here!
               <i class="fas fa-download" aria-hidden="true"></i>
@@ -62,50 +63,52 @@
   </section>
   <!-- Calendar content end -->
 
-  <!-- Footer -->
-  <footer>
-    <div class="fixed-bottom">
-      <ul class="list-inline social-links">
-        <li class="list-inline-item">
-          <a target="_blank" href="https://www.facebook.com/" rel="noreferrer">
-            <i class="fab fa-facebook" aria-hidden="true"></i>
-            <span class="sr-only">Facebook</span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a target="_blank" href="https://www.instagram.com/" rel="noreferrer">
-            <i class="fab fa-instagram" aria-hidden="true"></i>
-            <span class="sr-only">Instagram</span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a target="_blank" href="https://twitter.com/" rel="noreferrer">
-            <i class="fab fa-twitter" aria-hidden="true"></i>
-            <span class="sr-only">Twitter</span>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a target="_blank" href="https://www.youtube.com/" rel="noreferrer">
-            <i class="fab fa-youtube" aria-hidden="true"></i>
-            <span class="sr-only">YouTube</span>
-          </a>
-        </li>
-        <li class="list-inline-item contact">
-          <i class="fas fa-address-book" aria-hidden="true"><span>13 Moonlane, Utrecht, NL</span></i>
-          <span class="sr-only">Address</span>
-        </li>
-        <li class="list-inline-item contact">
-          <i class="fas fa-at" aria-hidden="true"><span>info@followthemoon.com</span></i>
-          <span class="sr-only">Email</span>
-        </li>
-        <li class="list-inline-item contact">
-          <i class="fas fa-phone" aria-hidden="true"><span>+31 123 456 78</span></i>
-          <span class="sr-only">Phone</span>
-        </li>
-      </ul>
-    </div>
-  </footer>
-  <!-- Footer end -->
+    <!-- Footer -->
+    <footer>
+      <div class="fixed-bottom">
+        <ul class="list-inline social-links">
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.facebook.com/" rel="noreferrer">
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+              <span class="sr-only">Facebook</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.instagram.com/" rel="noreferrer">
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+              <span class="sr-only">Instagram</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://twitter.com/" rel="noreferrer">
+              <i class="fab fa-twitter" aria-hidden="true"></i>
+              <span class="sr-only">Twitter</span>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a target="_blank" href="https://www.youtube.com/" rel="noreferrer">
+              <i class="fab fa-youtube" aria-hidden="true"></i>
+              <span class="sr-only">YouTube</span>
+            </a>
+          </li>
+          <li class="list-inline-item contact">
+            <a href="#" data-toggle="tooltip" data-placement="top" title="13 Moonlane, Utrecht, NL"><i class="fas fa-address-book" aria-hidden="true"></i></a>
+            <span class="sr-only">Address</span>
+          </li>
+          <li class="list-inline-item contact">
+            <a target="_blank" href="mailto:info@followthemoon.com" data-toggle="tooltip" data-placement="top" title="info@followthemoon.com" rel="noreferrer">
+              <i class="fas fa-at"  aria-hidden="true"></i>
+              <span class="sr-only">Email</span>
+            </a>
+          </li>
+          <li class="list-inline-item contact">
+            <a href="#" data-toggle="tooltip" data-placement="top" title="+31 6123 456 78"><i class="fas fa-phone" aria-hidden="true"></i></a>
+            <span class="sr-only">Phone</span>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <!-- Footer end -->
 
   <!-- Download modal -->
   <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
