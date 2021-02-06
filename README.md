@@ -2,7 +2,7 @@ Follow the moon
 ======
 **[Code Institute](https://codeinstitute.net/)  Milestone Project 1: User Centric Frontend Development**
 
-<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/homepage.jpg" alt="Follow the moon"/>
+<img src="assets/images/README images/homepage.jpg" alt="Follow the moon"/>
 
 Follow the moon is a fictional site about living with the flow of the moon that I set up as my first milestone project. The focus with this site is to combine what I learned in a previous course about the moon with what I learned this far about HTML, CSS and Bootstrap. The site’s goal is to share information, tips and tricks about living with the flow of the moon.
 
@@ -64,9 +64,9 @@ Links to my wireframes can be found here:
 The colors in the color pallet I got by using the homepage image and uploading it to an Adobe XD plugin [Color Designer](https://colordesigner.io/color-palette-from-image) and then select the option to get 10 colors. <br>
 Additionally, during making the wireframe I stumbled upon 2 colors which I used for the buttons and the text which are not in the color pallet. These are #FAF7F7 and #4A3F46.
 
-<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/color_pallet.png" alt="Color pallet"/>
-<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_%234A3F46.png" alt="Hex Color #4A3F46"/>
-<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/hex_color_%23FAF7F7.png" alt="Hex Color #FAF7F7"/> 
+<img src="assets/images/README images/color_pallet.png" alt="Color pallet"/>
+<img src="assets/images/README images/hex_color_#4A3F46.png" alt="Hex Color #4A3F46"/>
+<img src="assets/images/README images/hex_color_#FAF7F7.png" alt="Hex Color #FAF7F7"/> 
 
 During development I restructured my website layout a little bit, because I saw that this was visually better.
 What I changed was:
@@ -91,7 +91,6 @@ I made the navbar change into a mobile navigation menu which collapse to ensure 
 The call to action buttons works on mobile and desktop devices and the mediations I made can be played on the site itself or on YouTube.
 
 **Features for the future** <br>
-<br>
 The following items can be added: 
 + A custom made login
 + Moon cycle period tracker
@@ -123,7 +122,7 @@ Bugs
 ======
 #### Navigation menu
 I had a problem with my navigation menu on the homepage, it was pushing the content down, that was not supposed to happen. 
-<img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/menu_bug.png" alt="Menu bug"/> <br>
+<img src="assets/images/README images/menu_bug.png" alt="Menu bug"/> <br>
 I fixed it by changing my ccs from:  
 ```
 .navbar { 
@@ -156,7 +155,7 @@ Deployment
 To create a live version of my site VSCode was used together with GitHub Pages was used.
 To deploy the site with GitHub pages you need to follow the next steps:
 1. Log in on [GitHub](https://github.com/) 
-2. Find my page [Daphne](https://github.com/Daph1986)
+2. Find my [page](https://github.com/Daph1986) Daph1986
 3. Select repositories
 4. Select the Follow-the-moon repository
 5. Click on the link on the right side or on the link under "Demo"
@@ -168,15 +167,15 @@ If you would like to run this site locally you can clone this repository in an I
 You can clone it by following the next steps:
 <img src="assets/images/README images/clone.jpg" alt="Clone"/>
 1. Log in on [GitHub](https://github.com/) 
-2. Find my page [Daphne](https://github.com/Daph1986)
+2. Find my [page](https://github.com/Daph1986) Daph1986
 3. Select repositories
 4. Select the Follow-the-moon repository
 5. Click on the green "Clone" button
 6. Copy the URL 
 7. Open VScode or your preferred IDE, open the file where you want to use the project and open a CLI terminal
-8. Put the following command in the terminal:
+8. Put the following command in the CLI terminal:
 ``` 
-git clone https://github.com/Daph1986/Follow-the-moon
+git clone https://github.com/Daph1986/Follow-the-moon.git
 ``` 
 
 Credits
