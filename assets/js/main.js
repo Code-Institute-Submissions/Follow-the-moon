@@ -4,8 +4,6 @@ function redirectToDailyLife() {
   location.replace("dailylife.html")
 }
 
-
-
 /* ------------- Confirmation script ------------- */
 
 function confirmation() {
