@@ -16,33 +16,12 @@ By clicking this [link](https://daph1986.github.io/Follow-the-moon/) a live demo
 ## Table of Contents ##
 ---
   * [User Experience (UX)](#ux)
-    * [User stories](#user-stories)
-        * [Visitor Goals](#visitor-goals)
-        * [Site Owners Goals](#site-owner-goals)
-    * [Strategy](#strategy)
-    * [Scope](#scope)
-    * [Structure](#structure)
-    * [Skeleton](#skeleton)
-    * [Surface](#surface)
-    * [Fonts & icons](#fonts-&-icons)
   * [Features](#features)
-    * [Features for the future](#features-for-the-future)
   * [Technologies](#technologies)
-    * [Code languages and frameworks](#code-languages-and-frameworks)
-    * [Wireframe](#wireframe)
-    * [Others](#others)
   * [Bugs](#bugs)
-    * [Navigation menu](#navigation-menu)
-    * [YouTube videos](#youtube-videos)
   * [Testing](#testing)
   * [Deployment](#deployment)
   * [Credits](#credits)
-    * [Content](#content)
-    * [Media](#media)
-        * [Images](#images)
-        * [Music](#music)
-        * [Code](#code)
-    * [Acknowledgements](#acknowledgements)
 ---
 
 User Experience (UX)
@@ -94,9 +73,11 @@ What I changed was:
 1. The homepage I changed my button to from "Follow me!" to "Curious to know more?" this seemed to make more sense. I also made it link to the Daily life page. 
 2. The daily life page, I changed the page position in the navbar from fourth page to second page. This was more logical because the button on the homepage was changed and linked to this page. I then added the "Follow me!" button to this page, where you can sign up for the newsletter. 
 3. The moon calendar page I changed the "Download me!" button into "View me!" so that the calendar appeared in a pop-up which was an advice given by my mentor. But because then it would not be responsive to get it into the original A4 size I decided to add a download link for if you would like to save it and print it.
+At the end I decided to change "View me!" to "View calendar!" to make it more obvious what you are going to see.
 4. The moon calendar, I decided to change the background color from hex color #52547A to hex color #9E7B78. This was to create more unity with the moon calendar page.
 5. The meditations page, the page has a lot less text than the moon phases page, that is why I decided to change the layout into card decks. This resulted in a visually better oriented page.
 6. I removed the transparent navbar and footer layer for the daily life, moon phases and meditations page, because otherwise when scrolling you would get difficulties reading the text and the toggler menu on the mobile version would not be readable.
+7. With finalizing the project I decided to remove the address and phone in the navbar, for this kind of site I don't see the need to have an address or phone number. In my opinion a possibility to send an email is enough, though it is a fictive email address.
 
 **Fonts & icons**
 
@@ -167,60 +148,36 @@ After uploading my meditations on [YouTube](https://www.youtube.com/) and puttin
 
 Testing
 ======
-+ Color blindness was tested on this [site](https://www.toptal.com/designers/colorfilter/) to ensure you would still be able to read my site when you have different types of color blindness.
-+ CSS code was tested with a [CSS](https://jigsaw.w3.org/css-validator/#validate_by_input) validator, one failure remains, it says:
-```
-text underline offset property does not exist: 0.4em
-``` 
-I left it this way because this is a functional CSS property, it does what it's supposed to do, give a little space between the underline and the active page in the navbar. I tested this on multiple desktop browsers like Google Chrome, Safari, Microsoft Edge and Firefox.
-+ HTML code was tested with a [HTML](https://validator.w3.org/#validate_by_input) validator, it gives an error for the iframes of the meditations.html: 
-```
-Text not allowed in element iframe in this context.
-``` 
-I choose to ignore this, because this is what I learned in the HTML iframes section of the course: 
-```
-Some very old browsers do not support iframes. It is good practice to add a message to be displayed to users when the iframe will not load. This message goes between the opening and closing iframe tags like this:
-```
-```
- <iframe src="..."><p>Your browser does not support iframes.</p></iframe>"
-```
-I did try consult with tutor assistance about it, a srcdoc attribute was tested, but then the iframe wouldn't load.
-
-+ I also put my project on [Slack](https://slack.com/intl/en-nl/) and there I was attend on the 
+The testing has more content the expected so I choose to report this in a separate
+[file](TESTING.md)
 
 Deployment
 ======
-
-By clicking this [link](https://daph1986.github.io/Follow-the-moon/) the live demo version will be visible.
-
-### GitHub Pages
-To create a live version of my site GitHub Pages was used.
+To create a live version of my site VSCode was used together with GitHub Pages was used.
 To deploy the site with GitHub pages you need to follow the next steps:
-1. Log in on [GitHub](https://github.com/)
-2. Create a new repository by clicking on "Repositories" and after that on the green "New" button.
-3. Fill the showed fields out, give the repository a name, and if you want a description, leave it on "Public" and click the green "Create repository" button.
-4. Within VSCode use the following commands in the  CLI terminal:
-```
-git init
-git remote add origin https://github.com/Daph1986/Follow-the-moon.git
-git branch -M master
-git push -u origin master
-```
-5. Make sure you make an index.html landing page in order for the site to deploy on GitHub Pages.
-6. Use the 
-```
-git add . 
-git push 
-```
-command to send all your work to your GitHub Repository.
-7. Go to "Settings" and scroll down to "GitHub Pages" and with "Source" select the master branch and with "Folder" root, hit the "save" button and your site will be deployed in a few minutes.
-
-
-
-
+1. Log in on [GitHub](https://github.com/) 
+2. Find my page [Daphne](https://github.com/Daph1986)
+3. Select repositories
+4. Select the Follow-the-moon repository
+5. Click on the link on the right side or on the link under "Demo"
+By clicking that link the live demo version will be visible.
+<img src="assets/images/README images/link_1.jpg" alt="Link 1"/>
+<img src="assets/images/README images/link_2.jpg" alt="Link 2"/>
 
 If you would like to run this site locally you can clone this repository in an editor such as Cloud9 or VSCode.
-You can clone it by clicking the green "Code" button and copy the given link.
+You can clone it by following the next steps:
+<img src="assets/images/README images/clone.jpg" alt="Clone"/>
+1. Log in on [GitHub](https://github.com/) 
+2. Find my page [Daphne](https://github.com/Daph1986)
+3. Select repositories
+4. Select the Follow-the-moon repository
+5. Click on the green "Clone" button
+6. Copy the URL 
+7. Open VScode or your preferred IDE, open the file where you want to use the project and open a CLI terminal
+8. Put the following command in the terminal:
+``` 
+git clone https://github.com/Daph1986/Follow-the-moon
+``` 
 
 Credits
 ======
@@ -301,7 +258,7 @@ to compress my images
 1. [W3schools](https://www.w3schools.com/html/html_youtube.asp)
 To help me embed the YouTube videos in my code.
 2. [Stackoverflow](https://stackoverflow.com/questions/37814508/order-columns-through-bootstrap4) to help me reverse the order of my moon phase cards on the mobile layout. 
-3. [Autoprefixer CSS](https://autoprefixer.github.io/) to optimise the use of vendor extensions in my css.
+3. [Autoprefixer CSS](https://autoprefixer.github.io/) to optimize the use of vendor extensions in my CSS.
 
 ### Acknowledgements
 + My mentor from Code Institute, thank you Narender for your time and guidance.
