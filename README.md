@@ -1,6 +1,6 @@
 Follow the moon
 ======
-**Code Institute Milestone Project 1: User Centric Frontend Development**
+**[Code Institute](https://codeinstitute.net/)  Milestone Project 1: User Centric Frontend Development**
 
 <img src="https://github.com/Daph1986/Follow-the-moon/blob/master/assets/images/README%20images/homepage.jpg" alt="Follow the moon"/>
 
@@ -13,19 +13,51 @@ By clicking this [link](https://daph1986.github.io/Follow-the-moon/) a live demo
 
 <img src="assets/images/README images/responsive_mockup.png" alt="Responsive image"/>
 
-UX
+## Table of Contents ##
+---
+  * [User Experience (UX)](#ux)
+    + [User stories](#user-stories)
+        + [Visitor Goals](#visitor-goals)
+        + [Site Owners Goals](#site-owner-goals)
+    + [Strategy](#strategy)
+    + [Scope](#scope)
+    + [Structure](#structure)
+    + [Skeleton](#skeleton)
+    + [Surface](#surface)
+    + [Fonts & icons](#fonts-&-icons)
+  * [Features](#features)
+    + [Features for the future](#features-for-the-future)
+  * [Technologies](#technologies)
+    + [Code languages and frameworks](#code-languages-and-frameworks)
+    + [Wireframe](#wireframe)
+    + [Others](#others)
+  * [Bugs](#bugs)
+    + [Navigation menu](#navigation-menu)
+    + [YouTube videos](#youtube-videos)
+  * [Testing](#testing)
+  * [Deployment](#deployment)
+  * [Credits](#credits)
+    + [Content](#content)
+    + [Media](#media)
+        + [Images](#images)
+        + [Music](#music)
+        + [Code](#code)
+    + [Acknowledgements](#acknowledgements)
+---
+
+User Experience (UX)
 ======
 It will be a B2C site which targets audience interested in moonology / yoga / spirituality.
 
-User stories
-======
-**Visitor Goals**
+**User stories**
+
+#### Visitor Goals
 * Learn more about the influence the moon has on daily life.
 * Find out on which day of the moon cycle we are today.
 * Learn what to do and what not to do in the present moon phase.
 * Follow fitting meditations.
 
-**Site Owners Goals**
+#### Site Owners Goals
 * Provide information about moonology, influence of the moon on daily life.
 * Share passion for the moon / yoga / spirituality.
 
@@ -70,7 +102,6 @@ What I changed was:
 
 In Adobe XD I saw a font, Avenir, which I found fitting for my website because of the clean and thin appearance. I used [Google Fonts](https://fonts.google.com/) to embed it in my code, unfortunately Avenir wasn’t a Google font, so I picked one that was similar to it, Nunito.
 
-
 For the icons I used [Font Awesome](https://fontawesome.com/)
 
 Features
@@ -87,7 +118,6 @@ The following items can be added:
 + Moon phases linked to zodiac sign
 + Birthday moon history tracker
 + Yoga exercises fitting to the current moon phase
-
 
 Technologies
 ======
@@ -116,7 +146,7 @@ I had a problem with my navigation menu on the homepage, it was pushing the cont
 I fixed it by changing my ccs from:  
 ```
 .navbar { 
-	position: sticky; 
+    position: sticky; 
 } 
 ```
 
@@ -124,8 +154,8 @@ to:
 
 ```
 .navbar { 
-	position: fixed; 
-	width: 100% 
+    position: fixed; 
+    width: 100% 
 } 
 ```
 
@@ -156,14 +186,38 @@ Some very old browsers do not support iframes. It is good practice to add a mess
 ```
 I did try consult with tutor assistance about it, a srcdoc attribute was tested, but then the iframe wouldn't load.
 
++ I also put my project on [Slack](https://slack.com/intl/en-nl/) and there I was attend on the 
+
 Deployment
 ======
-To view a live version of my site GitHub Pages was used.
-A new public repository on GitHub was created, which deploys from the master branch.
-Within VSCode the "git push" command ensures the changes and new commits to the site are updated to the master branch.
-Make sure you make an index.html landing page in order for the site to deploy on GitHub Pages.
 
 By clicking this [link](https://daph1986.github.io/Follow-the-moon/) the live demo version will be visible.
+
+### GitHub Pages
+To create a live version of my site GitHub Pages was used.
+To deploy the site with GitHub pages you need to follow the next steps:
+1. Log in on [GitHub](https://github.com/)
+2. Create a new repository by clicking on "Repositories" and after that on the green "New" button.
+3. Fill the showed fields out, give the repository a name, and if you want a description, leave it on "Public" and click the green "Create repository" button.
+4. Within VSCode use the following commands in the  CLI terminal:
+```
+git init
+git remote add origin https://github.com/Daph1986/Follow-the-moon.git
+git branch -M master
+git push -u origin master
+```
+5. Make sure you make an index.html landing page in order for the site to deploy on GitHub Pages.
+6. Use the 
+```
+git add . 
+git push 
+```
+command to send all your work to your GitHub Repository.
+7. Go to "Settings" and scroll down to "GitHub Pages" and with "Source" select the master branch and with "Folder" root, hit the "save" button and your site will be deployed in a few minutes.
+
+
+
+
 
 If you would like to run this site locally you can clone this repository in an editor such as Cloud9 or VSCode.
 You can clone it by clicking the green "Code" button and copy the given link.
@@ -207,7 +261,6 @@ All content is written by myself based on what I've learned during the [Happinez
 * Intuition meditation image
     - ID: 511867600 by Triff
 
-
 4. [Rawpixel](https://www.rawpixel.com/)
 * waxing_crescent_moon image
     - id-440089 Original from NASA, digitally enhanced by rawpixel
@@ -230,6 +283,8 @@ All content is written by myself based on what I've learned during the [Happinez
 * responsive_mockup image
     - AdobeStock_362054394
 
+8. [Tiny png](https://tinypng.com/)
+to compress my images
 
 
 #### Music:
@@ -246,9 +301,12 @@ All content is written by myself based on what I've learned during the [Happinez
 1. [W3schools](https://www.w3schools.com/html/html_youtube.asp)
 To help me embed the YouTube videos in my code.
 2. [Stackoverflow](https://stackoverflow.com/questions/37814508/order-columns-through-bootstrap4) to help me reverse the order of my moon phase cards on the mobile layout. 
+3. [Autoprefixer CSS](https://autoprefixer.github.io/) to optimise the use of vendor extensions in my css.
 
 ### Acknowledgements
 + My mentor from Code Institute, thank you Narender for your time and guidance.
 + My husband, thank you Django for taking care of our son more so I can work on my education and thank you for your patience!
 + Anna Greaves from Code Institute, thank you so much for your explanation [site](https://ajgreaves.github.io/bootstrap-grid-demo/index.html) about the bootstrap grid, it really helped me understand it a lot better.
 + Igor from Code Institute tutor assistance, thank you for your explanation and help with my validator errors and your ideas about my background image bug.
++ Special thanks to Gwendolyn Jo, Richard Lovett & Marina Pavlovic, my colleagues, my husband, friends and family for their support, tips, and for testing my project.
+
