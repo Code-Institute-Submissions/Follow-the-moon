@@ -30,13 +30,13 @@ It will be a B2C site which targets audience interested in moonology / yoga / sp
 
 **User stories**
 
-#### Visitor Goals
+##### Visitor Goals
 * Learn more about the influence the moon has on daily life.
 * Find out on which day of the moon cycle we are today.
 * Learn what to do and what not to do in the present moon phase.
 * Follow fitting meditations.
 
-#### Site Owners Goals
+##### Site Owners Goals
 * Provide information about moonology, influence of the moon on daily life.
 * Share passion for the moon / yoga / spirituality.
 
@@ -141,7 +141,7 @@ to:
 ```
 
 My homepage background image had a bug, when the screen was above about 1550px in width, a part of the moon was pushed under the footer, which didn't look very good.
-Eventually I solved this problem by reducing my moon in photoshop, so it was still partly displayed on mobile devices but on large sizes it wasn't push below the footer.
+Eventually I solved this problem by reducing my moon in Photoshop, so it was still partly displayed on mobile devices but on large sizes it wasn't push below the footer.
 
 #### YouTube videos
 After uploading my meditations on [YouTube](https://www.youtube.com/) and putting it in my code with an iframe they wouldn't play. By searching on [Google](https://www.google.com/) I found this [site](https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262) where was explained how to fix it.
@@ -164,7 +164,7 @@ By clicking that link the live demo version will be visible.
 <img src="assets/images/README images/link_1.jpg" alt="Link 1"/>
 <img src="assets/images/README images/link_2.jpg" alt="Link 2"/>
 
-If you would like to run this site locally you can clone this repository in an editor such as Cloud9 or VSCode.
+If you would like to run this site locally you can clone this repository in an IDE such as Cloud9 or VSCode.
 You can clone it by following the next steps:
 <img src="assets/images/README images/clone.jpg" alt="Clone"/>
 1. Log in on [GitHub](https://github.com/) 
@@ -255,8 +255,7 @@ to compress my images
     - Self (Daphne Heimgartner-Frankhuisen)
 
 #### Code:
-1. [W3schools](https://www.w3schools.com/html/html_youtube.asp)
-To help me embed the YouTube videos in my code.
+1. [W3schools](https://www.w3schools.com/html/html_youtube.asp) to help me embed the YouTube videos in my code.
 2. [Stackoverflow](https://stackoverflow.com/questions/37814508/order-columns-through-bootstrap4) to help me reverse the order of my moon phase cards on the mobile layout. 
 3. [Autoprefixer CSS](https://autoprefixer.github.io/) to optimize the use of vendor extensions in my CSS.
 
