@@ -88,8 +88,8 @@ a.nav-link .navbar-nav {
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-size: 20px;
   width: 150px;
 }
@@ -114,7 +114,6 @@ a.nav-link .navbar-nav {
   background-color: rgba(29, 27, 29, 0.616);
 }
 
-
 /* ------------- Homepage ------------- */
 
 #homepage {
@@ -127,7 +126,8 @@ a.nav-link .navbar-nav {
 /* ------------- Daily life content ------------- */
 
 #dailylife {
-  background-color: #c9777f;;
+  background-color: #c9777f;
+  ;
 }
 
 #daily {
@@ -242,7 +242,7 @@ footer .list-inline {
 }
 
 @media screen and (max-width: 767.98px) {
-  .social-links  {
+  .social-links {
     text-align: center;
   }
 }
