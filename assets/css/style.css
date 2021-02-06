@@ -236,20 +236,6 @@ footer .list-inline {
   margin-top: 16px;
 }
 
-.contact {
-  float: right;
-}
-
-.contact span {
-  font-family: 'Nunito', sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-}
-
-.contact i {
-  padding-right: 2px;
-}
-
 ::before {
   padding: 3px;
   color: #FAF7F7;
@@ -258,8 +244,5 @@ footer .list-inline {
 @media screen and (max-width: 767.98px) {
   .social-links  {
     text-align: center;
-  }
-  .contact {
-    float: none;
   }
 }
