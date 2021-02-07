@@ -12,6 +12,10 @@ body {
   width: 100%;
 }
 
+#calendar_image {
+  height: intrinsic;
+}
+
 /* ------------- Navbar ------------- */
 
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link {
