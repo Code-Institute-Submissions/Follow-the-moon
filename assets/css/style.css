@@ -69,7 +69,7 @@ a.nav-link .navbar-nav {
   width: 125px;
   color: #FAF7F7;
   background-color: #4A3F46;
-  border-color: #4A3F46;
+  border-color: none;
 }
 
 .btn_close {
@@ -79,13 +79,13 @@ a.nav-link .navbar-nav {
   width: 125px;
   color: #FAF7F7;
   background-color: #4A3F46;
-  border-color: #FAF7F7;
+  border-color: none;
 }
 
 .btn:hover {
   color: #4A3F46;
   background-color: #CDBCCC;
-  border-color: #CDBCCC;
+  border-color: none;
 }
 
 #btn_follow {
@@ -170,6 +170,15 @@ a.nav-link .navbar-nav {
 
 #download-text {
   color: #FAF7F7;
+}
+
+.modal-content img {
+  width: 100%;
+  height: auto;
+}
+
+.modal-footer {
+  border: none;
 }
 
 /* ------------- Moon phases content ------------- */
