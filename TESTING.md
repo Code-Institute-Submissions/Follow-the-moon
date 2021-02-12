@@ -45,7 +45,7 @@ CSS code was tested with a [CSS](https://jigsaw.w3.org/css-validator/validator.h
 
 <img src="assets/images/TESTING images/css_validator.png" alt="CSS Validator"/>
 
-As is shown above two failures remain, <br>
+As is shown above two errors remain. <br>
 First error:
 ```
 Value Error : height Too many values or values are not recognized : intrinsic
@@ -63,47 +63,46 @@ JavaScript was tested with a [JavaScript](https://nl.piliapp.com/javascript-vali
 <img src="assets/images/TESTING images/js_validator.png" alt="JS Validator"/>
 
 ## Lighthouse
-I let all pages pass through Lighthouse in Chrome DevTools, the results for desktop can found here: 
+All pages have passed through Lighthouse in Chrome DevTools, the results for desktop can found here: 
 <img src="assets/images/TESTING images/lighthouse_desktop_reports.png" alt="Lighthouse desktop reports"/>
 and these are the results for the mobile versions:
 <img src="assets/images/TESTING images/lighthouse_mobile_reports.png" alt="Lighthouse mobile reports"/>
-I'm happy with the results and don't see the need for adjustments at this point.
+The results are satisfying, so at this moment there is no need for adjustments.
 
 ## GTmetrix 
-The site was tested with [GTmetrix](https://gtmetrix.com/) by my husband. This is the [first report](https://gtmetrix.com/reports/daph1986.github.io/CTWNdIKZ/). After that I compressed the images to reduce the page loading time. At the end I tested it again myself, this is the [report](https://gtmetrix.com/reports/daph1986.github.io/LZl138ub/) from that test.
-I'm happy with the results.
+The site was tested with [GTmetrix](https://gtmetrix.com/) by my husband. This is the [first report](https://gtmetrix.com/reports/daph1986.github.io/CTWNdIKZ/). After that the images were compressed to reduce the page loading time. At the end a final test was done, this is the [report](https://gtmetrix.com/reports/daph1986.github.io/XUnAX0rn/) from that test.
 
 ## Color blindness 
-Color blindness was tested on this [site](https://www.toptal.com/designers/colorfilter/) to ensure you would still be able to read my site when you have different types of color blindness. I added screenshot off the homepage test, but of course I tested all the pages.
+Color blindness was tested on this [site](https://www.toptal.com/designers/colorfilter/) to ensure you would still be able to read the website when you have different types of color blindness. Here you will find a screenshot off the homepage test, but of course all pages were tested.
 <img src="assets/images/TESTING images/protanopia.png" alt="Protanopia"/>
 <img src="assets/images/TESTING images/deutanopia.png" alt="Deutanopia"/>
 <img src="assets/images/TESTING images/tritanopia.png" alt="Tritanopia"/>
 <img src="assets/images/TESTING images/greyscale_achromatopsia.png" alt="Greyscale / Achromatopsia"/>
 
 ## Slack
-I also put my project on [Slack](https://slack.com/intl/en-nl/) and there I was attend on a few things by Richard Lovett & Marina Pavlovic, among others the fact that my moon calendar modal could be viewed better when there is a difference in background with the base page and that the contrast for my text and background on my daily life page wasn’t enough. I decided to adjust this by changing the background of my modal a bit and to change the background color for my daily life page in order to get a could contrast and keep the consistency in text color. Richard also gave me the advice to run the CSS through an online Autoprefixer CSS.
+On the 3rd of February the project was placed on [Slack](https://slack.com/intl/en-nl/) and there a few points were brought up by Richard Lovett & Marina Pavlovic, among others the fact that the moon calendar modal could be viewed better when there is a difference in background with the base page and that the contrast for the text and background on the daily life page wasn’t enough. The decision was made to adjust this by changing the background of the modal a bit and to change the background color for the daily life page in order to get a good contrast and keep the consistency in text color. Richard also gave the advice to run the CSS code through an online Autoprefixer CSS.
 
 ## Colleagues / friends / family
-I asked a lot of different people to check my project to ensure it works on different systems and devices. My site was tested on Samsung Galaxy TabA (10.1-inch 2019), OnePlus 5, Xiaomi Redmi Note 7, Xiaomi Redmi Note 8 Pro, Motorola G9, Motorola G5, Samsung S7, iPhone 6, iPhone 7, iPhone 12 and iPhone 12 Pro Max among others.
+A lot of different people were asked to check the project to ensure it works on different systems and devices. The website was tested on Samsung Galaxy TabA (10.1-inch 2019), OnePlus 5, Xiaomi Redmi Note 7, Xiaomi Redmi Note 8 Pro, Motorola G9, Motorola G5, Samsung S7, iPhone 6, iPhone 7, iPhone 12 and iPhone 12 Pro Max among others.
 My colleague found a bug when you turn your iPhone in landscape mode. 
 <img src="assets/images/TESTING images/ios_bug_1.jpeg" alt="iOS bug 1"/>
 <img src="assets/images/TESTING images/ios_bug_2.jpeg" alt="iOS bug 2"/>
 <img src="assets/images/TESTING images/ios_bug_3.jpeg" alt="iOS bug 3"/>
 <img src="assets/images/TESTING images/ios_bug_4.jpeg" alt="iOS bug 4"/>
 <img src="assets/images/TESTING images/ios_bug_5.jpeg" alt="iOS bug 5"/>
-I did research and tried to solve it but didn't work out. It was really frustrating because when you turn iPhones in landscape in the DevTools online this bug doesn't get displayed.
-I know it has to do with the "Notch" which is a safe area on iPhone as explained [here](https://css-tricks.com/the-notch-and-css/). It does this with more sites not only mine.
+Research was done and it was tried to solve but didn't work out. It was really frustrating because when you turn iPhones in landscape in the DevTools online this bug doesn't get displayed.
+It has to do with the "Notch" which is a safe area on iPhone as explained [here](https://css-tricks.com/the-notch-and-css/). It does this with more sites not only this website.
 So, this will be something for the future to solve. <br>
-#### Advices given after testing which I followed
-1. The reason I put in a preload for jQuery is that a friend of mine, Benny, who works as a senior developer explained to me that this was a smart thing to do, so that the browser gets a hint of what is coming. He also suggested that it was better to give my redirect function on the homepage a more self-describing name for clarification and to make my email icon clickable and let it open in the default email.
-2. It was my husband, Django, who suggested to put my JavaScript in a separate file.
+#### Advices given after testing which were followed
+1. The reason a preload for jQuery was added, is that a friend of mine, Benny, who works as a senior developer explained that this was a smart thing to do, so that the browser gets a hint of what is coming and can prepare for loading the content. He also suggested that it was better to give the redirect function on the homepage a more self-describing name for clarification and to make the email icon clickable and let it open in the default email.
+2. It was my husband, Django, who suggested to put the JavaScript in a separate file.
 
 Bugs
 ======
 #### Navigation menu
-I had a problem with my navigation menu on the homepage, it was pushing the content down, that was not supposed to happen. <br>
+There was a problem with the navigation menu on the homepage, it was pushing the content down, that was not supposed to happen. <br>
 <img src="assets/images/README images/menu_bug.png" alt="Menu bug"/> <br>
-I fixed it by changing my ccs from:  
+It was fixed by changing the CSS from:  
 ```
 .navbar { 
     position: sticky; 
@@ -119,11 +118,59 @@ to:
 } 
 ```
 
-My homepage background image had a bug, when the screen was above about 1550px in width, a part of the moon was pushed under the footer, which didn't look very good.
-Eventually I solved this problem by reducing my moon in Photoshop, so it was still partly displayed on mobile devices but on large sizes it wasn't push below the footer.
+The homepage background image had a bug, when the screen was above about 1550px in width, a part of the moon was pushed under the footer, which didn't look very good.
+Eventually this was solved by reducing the moon in Photoshop, so it was still partly displayed on mobile devices but on large sizes it wasn't push below the footer.
+However with the final testing it cm to the attention that when turning the phone in landscape mode this gave a new problem. Namely that not the entire content was displayed and scrolling was not possible.
+This was fixed by changes in the CSS code:
+
+```
+background: url("../images/homepage.jpg") no-repeat fixed;
+  background-size: cover;
+  max-width: 100%;
+  position: fixed;
+}
+```
+was changed to:
+```
+background: url("../images/homepage.jpg") no-repeat fixed;
+  background-size: cover;
+  max-width: 100%;
+  position: absolute;
+}
+```
+and the following was added:
+```
+#sm-landscape-fix {
+  height: 110px;
+}
+```
+The id "sm-landscape-fix" was added to the div were the "Curious to know more?" button is in, this resolved the issue and after retesting no other issues were found.
+
+#### Moon calendar page
+The image on the moon calendar page was pushed together, but this seemed only to happen on iPhones.
+My mentor pointed my toward two solutions and after consideration, this solution seemed to work best for that page, adding the id of "calendar-image" to the particular image an setting it to:
+```
+#calendar-image {
+  height: intrinsic;
+}
+```
+<img src="assets/images/TESTING images/moon_calendar_image_bug.png" alt="Image bug"/>
+This solves the problem as it puts the image at a natural height, which fixes this bug on the iPhone and it doesn't negatively affect the display on other devices. <br>
+
+#### Printable moon calendar
+There was a similar problem with the printable calendar on iPhone
+<img src="assets/images/TESTING images/moon_calender_bug.png" alt="Calendar bug"/>
+this was fixed by giving the image a width in CSS:
+
+```
+.modal-content img {
+  width: 100%;
+  height: auto;
+}
+```
 
 #### YouTube videos
-After uploading my meditations on [YouTube](https://www.youtube.com/) and putting it in my code with an iframe they wouldn't play. By searching on [Google](https://www.google.com/) I found this [site](https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262) where was explained how to fix it.
+After uploading the meditations on [YouTube](https://www.youtube.com/) and embeding it in the code with an iframe they wouldn't play. By searching on [Google](https://www.google.com/) this [site](https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262) was found where was explained how to fix it.
 
 
 
