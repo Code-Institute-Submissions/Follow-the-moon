@@ -50,7 +50,7 @@ First error:
 ```
 Value Error : height Too many values or values are not recognized : intrinsic
 ``` 
-This value was given to keep the image from cropping on iPhones, it was one of the two suggestions given my mentor and it works as it should, because the image is not cropped on iPhones anymore.
+This value was given to keep the image on the moon calendar page from getting pushed together on iPhone, it was one of the two suggestions given my mentor and it works as it should, because the image is pushed together on iPhone anymore.
 
 Second error:
 ```
@@ -117,7 +117,7 @@ to:
     width: 100% 
 } 
 ```
-
+#### Homepage background
 The homepage background image had a bug, when the screen was above about 1550px in width, a part of the moon was pushed under the footer, which didn't look very good.
 Eventually this was solved by reducing the moon in Photoshop, so it was still partly displayed on mobile devices but on large sizes it wasn't push below the footer.
 However with the final testing it cm to the attention that when turning the phone in landscape mode this gave a new problem. Namely that not the entire content was displayed and scrolling was not possible.

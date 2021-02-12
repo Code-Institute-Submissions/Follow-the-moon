@@ -13,15 +13,16 @@ By clicking this [link](https://daph1986.github.io/Follow-the-moon/) a live demo
 
 <img src="assets/images/README images/responsive_mockup.png" alt="Responsive image"/>
 
-## Table of Contents ##
----
-  * [User Experience (UX)](#ux)
+Table of Contents
+======
+
+  * [User Experience (UX)](#user-experience-(ux))
   * [Features](#features)
   * [Technologies](#technologies)
-  * [Testing / Bugs](#testing-/-bugs)
+  * [Testing & Bugs](#testing-&-bugs)
   * [Deployment](#deployment)
   * [Credits](#credits)
----
+
 
 User Experience (UX)
 ======
@@ -102,7 +103,7 @@ Technologies
 **Code languages and frameworks**
 + HTML5
 + CSS3
-+ Bootstrap 4.4.1
++ Bootstrap 4.6.0
 + JavaScript
 
 **Wireframe**
@@ -115,7 +116,7 @@ Technologies
 + Adobe Premiere Pro: to make audio meditations.
 + VSCode: to write the code in.
 
-Testing / Bugs
+Testing & Bugs
 ======
 The testing has been done on multiple devices and browsers, eventually everything works as intended. Due to the fact that this subject contained more content as expected a separate page has been created. For more details on testing and bugs please view this [file](TESTING.md).
 
