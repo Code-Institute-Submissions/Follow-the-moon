@@ -11,7 +11,7 @@ Table of Contents
   * [GTmetrix](#gtmetrix)
   * [Color blindness](#color-blindness)
   * [Slack](#slack)
-  * [Colleagues / friends / family](#colleagues-/-friends-/-family)
+  * [Colleagues / friends / family](#colleagues-friends-family)
   * [Bugs](#bugs)
 
 

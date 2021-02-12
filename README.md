@@ -19,7 +19,7 @@ Table of Contents
   * [User Experience (UX)](#user-experience-(ux))
   * [Features](#features)
   * [Technologies](#technologies)
-  * [Testing & Bugs](#testing-&-bugs)
+  * [Testing & Bugs](#testing-bugs)
   * [Deployment](#deployment)
   * [Credits](#credits)
 
