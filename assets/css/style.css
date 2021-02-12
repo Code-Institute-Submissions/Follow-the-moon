@@ -124,7 +124,11 @@ a.nav-link .navbar-nav {
   background: url("../images/homepage.jpg") no-repeat fixed;
   background-size: cover;
   max-width: 100%;
-  position: fixed;
+  position: absolute;
+}
+
+#sm-landscape-fix {
+  height: 110px;
 }
 
 /* ------------- Daily life content ------------- */
