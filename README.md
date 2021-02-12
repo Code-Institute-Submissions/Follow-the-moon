@@ -18,8 +18,7 @@ By clicking this [link](https://daph1986.github.io/Follow-the-moon/) a live demo
   * [User Experience (UX)](#ux)
   * [Features](#features)
   * [Technologies](#technologies)
-  * [Bugs](#bugs)
-  * [Testing](#testing)
+  * [Testing / Bugs](#testing)
   * [Deployment](#deployment)
   * [Credits](#credits)
 ---
