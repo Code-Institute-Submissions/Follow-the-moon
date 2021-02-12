@@ -1,5 +1,19 @@
 Test report
 ======
+Table of Contents
+======
+
+  * [General](#general)
+  * [HTML](#html)
+  * [CSS](#css)
+  * [JavaScript](#javascript)
+  * [Lighthouse](#lighthouse)
+  * [GTmetrix](#gtmetrix)
+  * [Color blindness](#color-blindness)
+  * [Slack](#slack)
+  * [Colleagues / friends / family](#colleagues-/-friends-/-family)
+  * [Bugs](#bugs)
+
 
 ## General
 The design goal was to make a clear, accessible, structured site so that visitors can get to the wanted information as quickly as possible. <br>
