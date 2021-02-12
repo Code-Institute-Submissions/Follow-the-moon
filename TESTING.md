@@ -3,10 +3,10 @@ Test report
 
 ## General
 The design goal was to make a clear, accessible, structured site so that visitors can get to the wanted information as quickly as possible. <br>
-As a visitor I had a few goals I wanted to achieve, in my tests I've checked if these were achieved.
+As a visitor there were a few goals to achieve, in the tests it was checked if these were achieved.
 * Learn more about the influence the moon has on daily life.
-    * When coming on the homepage it is clear what subject of the page is and if you like to know more / if you are curious there is a button you can click which will give more information. <img src="assets/images/TESTING images/subject.png" alt="Subject"/>The button directs you to the Daily life page where more information about the subject is displayed.
-    Furthermore, after reading the content there is a button displayed which if you click on it shows a form where you can sign up for the newsletter if you would like. <img src="assets/images/TESTING images/sign_up_modal.png" alt="Sign up modal"/> 
+    * When coming on the homepage it is clear what subject of the page is and if you would like to know more / if you are curious there is a button you can click which will give more information.  <img src="assets/images/TESTING images/subject.png" alt="Subject"/>The button redirects you to the Daily life page where more information about the subject is displayed.
+    Furthermore, after reading the content there is a button displayed which if you click on, it shows a form where you can sign up for the newsletter if you would like. <img src="assets/images/TESTING images/sign_up_modal.png" alt="Sign up modal"/> 
    
 * Find out on which day of the moon cycle we are today.
     * When you navigate to moon calendar in the navbar, you reach the moon calendar page. There it is explained that you can view the calendar or open an A4 version for downloading or printing. <img src="assets/images/TESTING images/moon_calendar_page.png" alt="Moon calendar page"/> 
@@ -17,10 +17,9 @@ As a visitor I had a few goals I wanted to achieve, in my tests I've checked if 
 * Follow fitting meditations. <br>
      * If you want to relax and follow a meditation, you visit the last page, the meditation page. You can find six different meditations there, pick one that you think is fitting for you at this moment and enjoy. <img src="assets/images/TESTING images/meditations.png" alt="Meditations page"/> 
 
-Overall, I think all my goals are achieved. <br>
-I tested my site on the available DevTools phone and tablet sizes as well as on multiple responsive sizes and made sure that it looks good and works well on all. <br>
-On my own devices which are an OnePlus Nord, an iMac (Retina 5K, 27-inch, 2017), a MacBook-Air (Retina M1, 13.3-inch, 2020) and a Samsung Galaxy Tab4 (10.1-inch 2014) I also tested everything and it works as it should.
-
+It can be concluded that all goals have been achieved.  <br>
+The website has been tested on the available DevTools for phone and tablet sizes as well as on multiple responsive sizes and it was made sure that it looks good and works well on all. <br>
+The website was also tested on multiple devices among others an OnePlus Nord, an iMac (Retina 5K, 27-inch, 2017), a MacBook-Air (Retina M1, 13.3-inch, 2020) and a Samsung Galaxy Tab4 (10.1-inch 2014), everything works as it should.
 
 ## HTML
 HTML code was tested with a [HTML](https://validator.w3.org/#validate_by_input) validator, all the pages were checked.
@@ -32,25 +31,32 @@ It gives only an error for the iframes of the meditations.html:
 ```
 Text not allowed in element iframe in this context.
 ``` 
-I could have just skipped the paragraph text, but I choose to leave it in and to ignore this error, because this is what I learned in the HTML iframes section of the course: 
+This paragraph text could have just been skipped, but it is left in and the error was ignored, because this is what was learned in the HTML iframes section of the course: 
 ```
 Some very old browsers do not support iframes. It is good practice to add a message to be displayed to users when the iframe will not load. This message goes between the opening and closing iframe tags like this:
 ```
 ```
  <iframe src="..."><p>Your browser does not support iframes.</p></iframe>"
 ```
-I consulted with tutor assistance about it, a srcdoc attribute was tested, but then the iframe wouldn't load, so I left it the way it was.
+After consulting with tutor assistance about it, a srcdoc attribute was tested, but then the iframe wouldn't load, so the paragraph text was left the way it was.
 
 ## CSS
 CSS code was tested with a [CSS](https://jigsaw.w3.org/css-validator/validator.html.en#validate_by_input) validator.
 
 <img src="assets/images/TESTING images/css_validator.png" alt="CSS Validator"/>
 
-As is shown above one failure remains, it says:
+As is shown above two failures remain, <br>
+First error:
+```
+Value Error : height Too many values or values are not recognized : intrinsic
+``` 
+This value was given to keep the image from cropping on iPhones, it was one of the two suggestions given my mentor and it works as it should, because the image is not cropped on iPhones anymore.
+
+Second error:
 ```
 text underline offset property does not exist: 0.4em
 ``` 
-I consulted with tutor assistance about it, and I left it this way because this is a functional CSS property, it does what it's supposed to do, it gives a little space between the underline and the active page in the navbar. I tested this on desktop and mobile devices on multiple browsers like Google Chrome, Safari, Microsoft Edge, Firefox and Brave.
+Tutor assistance was consulted about it, and it was left this way because this is a functional CSS property, it does what it's supposed to do, it gives a little space between the underline and the active page in the navbar. It was tested on desktop and mobile devices on multiple browsers like Google Chrome, Safari, Microsoft Edge, Firefox and Brave.
 
 ## JavaScript
 JavaScript was tested with a [JavaScript](https://nl.piliapp.com/javascript-validator/) validator.
@@ -74,7 +80,6 @@ Color blindness was tested on this [site](https://www.toptal.com/designers/color
 <img src="assets/images/TESTING images/tritanopia.png" alt="Tritanopia"/>
 <img src="assets/images/TESTING images/greyscale_achromatopsia.png" alt="Greyscale / Achromatopsia"/>
 
-
 ## Slack
 I also put my project on [Slack](https://slack.com/intl/en-nl/) and there I was attend on a few things by Richard Lovett & Marina Pavlovic, among others the fact that my moon calendar modal could be viewed better when there is a difference in background with the base page and that the contrast for my text and background on my daily life page wasn’t enough. I decided to adjust this by changing the background of my modal a bit and to change the background color for my daily life page in order to get a could contrast and keep the consistency in text color. Richard also gave me the advice to run the CSS through an online Autoprefixer CSS.
 
@@ -92,3 +97,33 @@ So, this will be something for the future to solve. <br>
 #### Advices given after testing which I followed
 1. The reason I put in a preload for jQuery is that a friend of mine, Benny, who works as a senior developer explained to me that this was a smart thing to do, so that the browser gets a hint of what is coming. He also suggested that it was better to give my redirect function on the homepage a more self-describing name for clarification and to make my email icon clickable and let it open in the default email.
 2. It was my husband, Django, who suggested to put my JavaScript in a separate file.
+
+Bugs
+======
+#### Navigation menu
+I had a problem with my navigation menu on the homepage, it was pushing the content down, that was not supposed to happen. <br>
+<img src="assets/images/README images/menu_bug.png" alt="Menu bug"/> <br>
+I fixed it by changing my ccs from:  
+```
+.navbar { 
+    position: sticky; 
+} 
+```
+
+to: 
+
+```
+.navbar { 
+    position: fixed; 
+    width: 100% 
+} 
+```
+
+My homepage background image had a bug, when the screen was above about 1550px in width, a part of the moon was pushed under the footer, which didn't look very good.
+Eventually I solved this problem by reducing my moon in Photoshop, so it was still partly displayed on mobile devices but on large sizes it wasn't push below the footer.
+
+#### YouTube videos
+After uploading my meditations on [YouTube](https://www.youtube.com/) and putting it in my code with an iframe they wouldn't play. By searching on [Google](https://www.google.com/) I found this [site](https://forum.freecodecamp.org/t/youtube-refused-to-connect/245262) where was explained how to fix it.
+
+
+
